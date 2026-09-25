@@ -22,15 +22,38 @@ jobs:
       - name: Build for iOS Simulator
         run: |
           set -o pipefail
-          xcodebuild \
-            -project SeasonalTea.xcodeproj \
-            -scheme SeasonalTea \
-            -configuration Debug \
-            -sdk iphonesimulator \
-            -destination 'generic/platform=iOS Simulator' \
-            -derivedDataPath "$RUNNER_TEMP/SeasonalTeaDerivedData" \
-            CODE_SIGNING_ALLOWED=NO \
-            build 2>&1 | tee "$RUNNER_TEMP/xcodebuild.log"
+          if xcodebuild \
+              -project SeasonalTea.xcodeproj \
+              -scheme SeasonalTea \
+              -configuration Debug \
+              -sdk iphonesimulator \
+              -destination 'generic/platform=iOS Simulator' \
+              -derivedDataPath "$RUNNER_TEMP/SeasonalTeaDerivedData" \
+              CODE_SIGNING_ALLOWED=NO \
+              build 2>&1 | tee "$RUNNER_TEMP/xcodebuild.log"; then
+            echo 'xcodebuild succeeded.'
+          else
+            result="${PIPESTATUS[0]}"
+            diagnostic="$(python3 - "$RUNNER_TEMP/xcodebuild.log" <<'PY'
+          import pathlib
+          import re
+          import sys
+
+          lines = pathlib.Path(sys.argv[1]).read_text(errors="replace").splitlines()
+          errors = [line for line in lines if re.search(
+              r"error:|fatal error:|BUILD FAILED|Error Domain", line, re.IGNORECASE
+          )]
+          selected = errors[-8:] or lines[-12:]
+          message = "\n".join(selected)
+          for character, escaped in (("%", "%25"), ("\r", "%0D"),
+                                     ("\n", "%0A"), (":", "%3A"), (",", "%2C")):
+              message = message.replace(character, escaped)
+          print(message or "xcodebuild exited without writing a diagnostic")
+          PY
+          )"
+            echo "::error title=xcodebuild failed::${diagnostic}"
+            exit "$result"
+          fi
 
       - name: Summarize build failure
         if: failure()
