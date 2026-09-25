@@ -8,7 +8,9 @@ struct TeaCard: View {
     }
 
     var body: some View {
-        NavigationLink(value: tea) {
+        NavigationLink {
+            TeaDetailView(tea: tea)
+        } label: {
             HStack(spacing: 14) {
                 RoundedRectangle(cornerRadius: 15, style: .continuous)
                     .fill(TeaPalette.sage)
