@@ -102,6 +102,39 @@ jobs:
             exit "$result"
           fi
 
+      - name: Build an unsigned iPhone IPA for free sideloading
+        run: |
+          set -euo pipefail
+          BUILD_DIR="$RUNNER_TEMP/SeasonalTeaDeviceBuild"
+          IPA_DIR="$RUNNER_TEMP/SeasonalTeaIPA"
+          xcodebuild \
+            -project SeasonalTea.xcodeproj \
+            -scheme SeasonalTea \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath "$BUILD_DIR" \
+            CODE_SIGNING_ALLOWED=NO \
+            build
+          APP_PATH="$BUILD_DIR/Build/Products/Release-iphoneos/SeasonalTea.app"
+          test -d "$APP_PATH"
+          mkdir -p "$IPA_DIR/Payload"
+          ditto "$APP_PATH" "$IPA_DIR/Payload/SeasonalTea.app"
+          cat > "$IPA_DIR/README.txt" <<'EOF'
+          这是未签名的 iPhone 测试包，不可直接点开安装。
+          免费侧载需要每位接收者用自己的 Apple 账号，通过 AltStore/AltServer 或同类工具重新签名安装。
+          免费 Apple 个人团队的签名有效期为 7 天，之后需重新签名并安装。
+          EOF
+          (cd "$IPA_DIR" && ditto -c -k --sequesterRsrc --keepParent Payload SeasonalTea-unsigned.ipa)
+
+      - name: Save unsigned iPhone IPA
+        uses: actions/upload-artifact@v7
+        with:
+          name: seasonal-tea-unsigned-ipa
+          path: ${{ runner.temp }}/SeasonalTeaIPA/
+          if-no-files-found: error
+          retention-days: 14
+
       - name: Summarize build failure
         if: failure()
         run: |
