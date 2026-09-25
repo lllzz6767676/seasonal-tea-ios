@@ -14,22 +14,43 @@ jobs:
     runs-on: macos-15
     steps:
       - name: Check out source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Show Xcode version
         run: xcodebuild -version
 
       - name: Build for iOS Simulator
-        run: >-
-          xcodebuild
-          -project SeasonalTea.xcodeproj
-          -scheme SeasonalTea
-          -configuration Debug
-          -sdk iphonesimulator
-          -destination 'generic/platform=iOS Simulator'
-          -derivedDataPath "$RUNNER_TEMP/SeasonalTeaDerivedData"
-          CODE_SIGNING_ALLOWED=NO
-          build
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -project SeasonalTea.xcodeproj \
+            -scheme SeasonalTea \
+            -configuration Debug \
+            -sdk iphonesimulator \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath "$RUNNER_TEMP/SeasonalTeaDerivedData" \
+            CODE_SIGNING_ALLOWED=NO \
+            build 2>&1 | tee "$RUNNER_TEMP/xcodebuild.log"
+
+      - name: Summarize build failure
+        if: failure()
+        run: |
+          if [ -f "$RUNNER_TEMP/xcodebuild.log" ]; then
+            {
+              echo '### xcodebuild failure details'
+              echo '```text'
+              tail -n 80 "$RUNNER_TEMP/xcodebuild.log"
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Save xcodebuild log
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: xcodebuild-log
+          path: ${{ runner.temp }}/xcodebuild.log
+          if-no-files-found: ignore
 
       - name: Boot simulator and launch app
         run: |
@@ -62,7 +83,7 @@ jobs:
 
       - name: Save simulator screenshot
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: seasonal-tea-simulator-screenshot
           path: ${{ runner.temp }}/seasonal-tea-simulator.png
