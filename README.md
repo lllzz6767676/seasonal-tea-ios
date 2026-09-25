@@ -17,7 +17,19 @@ xcodebuild -project SeasonalTea.xcodeproj \
   build
 ```
 
-推送到 GitHub 的 `main` 分支后，Actions 会在 macOS runner 上编译并启动 iPhone 模拟器中的 App。每次运行会保存一张模拟器截图，可在该次 Actions 运行的 Artifacts 中下载。此流程验证编译和启动，不替代对各页面交互的完整 UI 测试。
+推送到 GitHub 的 `main` 分支后，Actions 会优先选择 iPhone 12 模拟器，运行 XCTest 与 XCUITest，再安装、启动 App 并保存模拟器截图。每次运行的截图和 `xcodebuild` 日志可在 Actions 运行页的 Artifacts 中下载；若 runner 没有 iPhone 12，会记录并使用其可用的 iPhone 模拟器。
+
+也可以在 macOS 上运行自动化测试：
+
+```sh
+xcodebuild test \
+  -project SeasonalTea.xcodeproj \
+  -scheme SeasonalTea \
+  -destination 'platform=iOS Simulator,name=iPhone 12' \
+  CODE_SIGNING_ALLOWED=NO
+```
+
+测试覆盖 60 条数据完整性、分类覆盖、搜索、二十四节气全年顺序、推荐范围，以及首页、分类、详情、搜索结果、无结果状态和 Safari 打开的模拟器交互。模拟器测试不等于真机安装验证。
 
 Deployment Target 是 iOS 17.0，目标设备仅为 iPhone。Swift 语言模式设为 5.0。App 不请求相机、位置或健康数据权限，也没有服务器依赖。
 
@@ -39,4 +51,4 @@ Deployment Target 是 iOS 17.0，目标设备仅为 iPhone。Swift 语言模式�
 
 ## 验证状态
 
-本地 Windows 环境没有 Xcode、iOS SDK 或 iPhone Simulator，无法在本机编译或启动。GitHub Actions 会提供 macOS 上的实际构建和模拟器启动结果；若 iPhone 12 模拟器不可用，工作流会选用 runner 上可用的 iPhone 模拟器。
+本地 Windows 环境没有 Xcode、iOS SDK 或 iPhone Simulator，无法在本机编译或启动。GitHub Actions 在 macOS runner 上执行自动化测试，并保存模拟器截图、构建日志供检查。

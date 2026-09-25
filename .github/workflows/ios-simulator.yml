@@ -19,19 +19,41 @@ jobs:
       - name: Show Xcode version
         run: xcodebuild -version
 
-      - name: Build for iOS Simulator
+      - name: Run unit and UI tests on an iPhone simulator
         run: |
-          set -o pipefail
+          set -euo pipefail
+          DEVICE_INFO="$(python3 - <<'PY'
+          import json
+          import subprocess
+
+          devices = json.loads(subprocess.check_output(
+              ["xcrun", "simctl", "list", "devices", "available", "--json"], text=True
+          ))["devices"]
+          iphones = [device for runtime in devices.values() for device in runtime
+                     if device["isAvailable"] and device["name"].startswith("iPhone")]
+          selected = next((device for device in iphones if device["name"] == "iPhone 12"), None)
+          selected = selected or (iphones[0] if iphones else None)
+          if selected is None:
+              raise SystemExit("No available iPhone simulator was found")
+          print(f"{selected['name']}|{selected['udid']}")
+          PY
+          )"
+          SIMULATOR_NAME="${DEVICE_INFO%%|*}"
+          SIMULATOR_ID="${DEVICE_INFO#*|}"
+          echo "Using iPhone simulator: $SIMULATOR_NAME ($SIMULATOR_ID)"
+          echo "SIMULATOR_NAME=$SIMULATOR_NAME" >> "$GITHUB_ENV"
+          echo "SIMULATOR_ID=$SIMULATOR_ID" >> "$GITHUB_ENV"
           if xcodebuild \
               -project SeasonalTea.xcodeproj \
               -scheme SeasonalTea \
               -configuration Debug \
-              -sdk iphonesimulator \
-              -destination 'generic/platform=iOS Simulator' \
+              -destination "platform=iOS Simulator,id=$SIMULATOR_ID" \
               -derivedDataPath "$RUNNER_TEMP/SeasonalTeaDerivedData" \
+              -resultBundlePath "$RUNNER_TEMP/SeasonalTea.xcresult" \
+              -parallel-testing-enabled NO \
               CODE_SIGNING_ALLOWED=NO \
-              build 2>&1 | tee "$RUNNER_TEMP/xcodebuild.log"; then
-            echo 'xcodebuild succeeded.'
+              test 2>&1 | tee "$RUNNER_TEMP/xcodebuild.log"; then
+            echo "Unit and UI tests passed on $SIMULATOR_NAME."
           else
             result="${PIPESTATUS[0]}"
             diagnostic="$(python3 - "$RUNNER_TEMP/xcodebuild.log" <<'PY'
@@ -75,34 +97,33 @@ jobs:
           path: ${{ runner.temp }}/xcodebuild.log
           if-no-files-found: ignore
 
-      - name: Boot simulator and launch app
+      - name: Launch app and capture simulator screenshot
         run: |
           set -euo pipefail
           APP_PATH="$RUNNER_TEMP/SeasonalTeaDerivedData/Build/Products/Debug-iphonesimulator/SeasonalTea.app"
           BUNDLE_ID="com.example.SeasonalTea"
-          DEVICE_ID="$(python3 - <<'PY'
+          DEVICE_STATE="$(python3 - "$SIMULATOR_ID" <<'PY'
           import json
           import subprocess
+          import sys
 
           devices = json.loads(subprocess.check_output(
               ["xcrun", "simctl", "list", "devices", "available", "--json"], text=True
           ))["devices"]
-          iphones = [device for runtime in devices.values() for device in runtime
-                     if device["isAvailable"] and device["name"].startswith("iPhone")]
-          preferred = next((device for device in iphones if device["name"] == "iPhone 12"), None)
-          selected = preferred or (iphones[0] if iphones else None)
-          if selected is None:
-              raise SystemExit("No available iPhone simulator was found")
-          print(selected["udid"])
+          selected = next(device for runtime in devices.values() for device in runtime
+                          if device["udid"] == sys.argv[1])
+          print(selected["state"])
           PY
           )"
-          echo "Using simulator $DEVICE_ID"
-          xcrun simctl boot "$DEVICE_ID"
-          xcrun simctl bootstatus "$DEVICE_ID" -b
-          xcrun simctl install "$DEVICE_ID" "$APP_PATH"
-          xcrun simctl launch "$DEVICE_ID" "$BUNDLE_ID"
+          echo "Final screenshot device: $SIMULATOR_NAME ($SIMULATOR_ID)"
+          if [ "$DEVICE_STATE" != "Booted" ]; then
+            xcrun simctl boot "$SIMULATOR_ID"
+          fi
+          xcrun simctl bootstatus "$SIMULATOR_ID" -b
+          xcrun simctl install "$SIMULATOR_ID" "$APP_PATH"
+          xcrun simctl launch "$SIMULATOR_ID" "$BUNDLE_ID"
           sleep 5
-          xcrun simctl io "$DEVICE_ID" screenshot "$RUNNER_TEMP/seasonal-tea-simulator.png"
+          xcrun simctl io "$SIMULATOR_ID" screenshot "$RUNNER_TEMP/seasonal-tea-simulator.png"
 
       - name: Save simulator screenshot
         if: always()

@@ -80,6 +80,7 @@ struct TeaLibraryView: View {
                         categorySelectionFeedback += 1
                     })
                     .sensoryFeedback(.selection, trigger: categorySelectionFeedback)
+                    .accessibilityIdentifier("library.category.\(category.id)")
                 }
             }
 

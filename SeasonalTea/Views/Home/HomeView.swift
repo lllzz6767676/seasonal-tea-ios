@@ -131,6 +131,7 @@ struct HomeView: View {
                 .foregroundStyle(TeaPalette.green)
             }
             .buttonStyle(PressableCardStyle())
+            .accessibilityIdentifier("home.recommendedTeaDetail")
         }
         .padding(23)
         .frame(maxWidth: .infinity, alignment: .leading)
@@ -186,5 +187,6 @@ struct HomeView: View {
             .background(TeaPalette.green, in: RoundedRectangle(cornerRadius: 19, style: .continuous))
         }
         .buttonStyle(PressableCardStyle())
+        .accessibilityIdentifier("home.enterLibrary")
     }
 }

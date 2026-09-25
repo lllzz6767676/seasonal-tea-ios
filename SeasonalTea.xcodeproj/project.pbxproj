@@ -21,6 +21,10 @@
 		80F3D1D46FDD79F32887238A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9792470011737E186266A47F /* HomeView.swift */; };
 		4E28BDC38D2FCAF682B8B8FA /* TeaLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABC0C0E18D4E54E47339A32 /* TeaLibraryView.swift */; };
 		021D1B4AB02EDCDAD64B8861 /* tea_data.json in Resources */ = {isa = PBXBuildFile; fileRef = BE47C27DCEF76E77A0AF388E /* tea_data.json */; };
+		A0010000000000000000000D /* TeaDataAndServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0010000000000000000000F /* TeaDataAndServicesTests.swift */; };
+		A0010000000000000000000E /* SeasonalTeaFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000010 /* SeasonalTeaFlowTests.swift */; };
+		A00100000000000000000014 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00100000000000000000016 /* XCTest.framework */; };
+		A00100000000000000000015 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00100000000000000000016 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 /* Begin PBXFileReference section */
 		50595E1D717D83436AA59E86 /* EvidenceBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EvidenceBadge.swift"; sourceTree = "<group>"; };
@@ -40,6 +44,11 @@
 		7ABC0C0E18D4E54E47339A32 /* TeaLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeaLibraryView.swift"; sourceTree = "<group>"; };
 		BE47C27DCEF76E77A0AF388E /* tea_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tea_data.json; sourceTree = "<group>"; };
 		A9170DB884ABEDC2195B41BC /* SeasonalTea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeasonalTea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0010000000000000000000F /* TeaDataAndServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaDataAndServicesTests.swift; sourceTree = "<group>"; };
+		A00100000000000000000010 /* SeasonalTeaFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonalTeaFlowTests.swift; sourceTree = "<group>"; };
+		A00100000000000000000011 /* SeasonalTeaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeasonalTeaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00100000000000000000012 /* SeasonalTeaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeasonalTeaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00100000000000000000016 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Developer/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 /* Begin PBXGroup section */
 		DB2BFDFA86CB2D21FDEFF426 /* . */ = {isa = PBXGroup; children = (
@@ -47,6 +56,10 @@
 		); path = "."; sourceTree = "<group>"; };
 /* End PBXGroup section */
 /* Begin PBXGroup section */
+		A00100000000000000000017 /* Tests */ = {isa = PBXGroup; children = (
+			A0010000000000000000000F /* TeaDataAndServicesTests.swift */,
+			A00100000000000000000010 /* SeasonalTeaFlowTests.swift */,
+		); path = Tests; sourceTree = "<group>"; };
 		54FE5E34995DE10F87DF7B85 /* Components */ = {isa = PBXGroup; children = (
 			50595E1D717D83436AA59E86 /* EvidenceBadge.swift */,
 			F4DA34C8DE90DBA0D78BBCE1 /* SectionCard.swift */,
@@ -100,6 +113,7 @@
 /* Begin PBXGroup section */
 		ADCF10F76EBF2A74473E9DC4 /* Main Group */ = {isa = PBXGroup; children = (
 			DB2BFDFA86CB2D21FDEFF426 /* . */,
+			A00100000000000000000017 /* Tests */,
 			54FE5E34995DE10F87DF7B85 /* Components */,
 			BF657CFE8769AAE6C0570C29 /* Models */,
 			D54C6BF628381B2928BD09E1 /* Repositories */,
@@ -111,7 +125,11 @@
 			F8DCF93C092E8D09DC3F42D6 /* Views/Library */,
 			00C45FD35CB0F9C5F764F070 /* Products */,
 		); path = SeasonalTea; sourceTree = "<group>"; };
-		00C45FD35CB0F9C5F764F070 /* Products */ = {isa = PBXGroup; children = (A9170DB884ABEDC2195B41BC /* SeasonalTea.app */,); name = Products; sourceTree = "<group>"; };
+		00C45FD35CB0F9C5F764F070 /* Products */ = {isa = PBXGroup; children = (
+			A9170DB884ABEDC2195B41BC /* SeasonalTea.app */,
+			A00100000000000000000011 /* SeasonalTeaTests.xctest */,
+			A00100000000000000000012 /* SeasonalTeaUITests.xctest */,
+		); name = Products; sourceTree = "<group>"; };
 /* End PBXGroup section */
 /* Begin PBXSourcesBuildPhase section */
 		1CDF2F71A52B082132B04DFF /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
@@ -131,28 +149,48 @@
 			80F3D1D46FDD79F32887238A /* HomeView.swift in Sources */,
 			4E28BDC38D2FCAF682B8B8FA /* TeaLibraryView.swift in Sources */,
 		); runOnlyForDeploymentPostprocessing = 0; };
+		A00100000000000000000009 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A0010000000000000000000D /* TeaDataAndServicesTests.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+		A0010000000000000000000A /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A0010000000000000000000E /* SeasonalTeaFlowTests.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
 /* End PBXSourcesBuildPhase section */
 /* Begin PBXResourcesBuildPhase section */
 		C02F1309AF4906C92F1EAD44 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (021D1B4AB02EDCDAD64B8861 /* tea_data.json in Resources */,); runOnlyForDeploymentPostprocessing = 0; };
 /* End PBXResourcesBuildPhase section */
 /* Begin PBXFrameworksBuildPhase section */
 		CF5BDB0BEAFE176F9629192A /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A0010000000000000000000B /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (A00100000000000000000014 /* XCTest.framework in Frameworks */,); runOnlyForDeploymentPostprocessing = 0; };
+		A0010000000000000000000C /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (A00100000000000000000015 /* XCTest.framework in Frameworks */,); runOnlyForDeploymentPostprocessing = 0; };
 /* End PBXFrameworksBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		A00100000000000000000018 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = 845D0F7D97FA48E7E6C791B4 /* Project object */; proxyType = 1; remoteGlobalIDString = 444EBDC99E543FCFF5680C2D; remoteInfo = SeasonalTea; };
+		A00100000000000000000019 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = 845D0F7D97FA48E7E6C791B4 /* Project object */; proxyType = 1; remoteGlobalIDString = 444EBDC99E543FCFF5680C2D; remoteInfo = SeasonalTea; };
+/* End PBXContainerItemProxy section */
+/* Begin PBXTargetDependency section */
+		A0010000000000000000001A /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 444EBDC99E543FCFF5680C2D /* SeasonalTea */; targetProxy = A00100000000000000000018 /* PBXContainerItemProxy */; };
+		A0010000000000000000001B /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 444EBDC99E543FCFF5680C2D /* SeasonalTea */; targetProxy = A00100000000000000000019 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
 /* Begin XCBuildConfiguration section */
 		73BFC4993D558C2844970A56 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; }; name = Debug; };
 		3C5BC6FE1E438E679FB7F74F /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_VERSION = 5.0; }; name = Release; };
-		A45358D7F57D12409C956205 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "节气茶饮"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.SeasonalTea; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		A45358D7F57D12409C956205 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ENABLE_TESTABILITY = YES; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "节气茶饮"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.SeasonalTea; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
 		7A3CC3E65B4BE81911CE6871 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "节气茶饮"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.SeasonalTea; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; SWIFT_COMPILATION_MODE = wholemodule; }; name = Release; };
+		A00100000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; ENABLE_TESTING_SEARCH_PATHS = YES; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.SeasonalTeaTests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeasonalTea.app/SeasonalTea"; }; name = Debug; };
+		A00100000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; ENABLE_TESTING_SEARCH_PATHS = YES; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.SeasonalTeaTests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeasonalTea.app/SeasonalTea"; }; name = Release; };
+		A00100000000000000000006 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ENABLE_TESTING_SEARCH_PATHS = YES; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.SeasonalTeaUITests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_TARGET_NAME = SeasonalTea; }; name = Debug; };
+		A00100000000000000000007 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ENABLE_TESTING_SEARCH_PATHS = YES; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.SeasonalTeaUITests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_TARGET_NAME = SeasonalTea; }; name = Release; };
 /* End XCBuildConfiguration section */
 /* Begin XCConfigurationList section */
 		12D04D787E90C9B967248BFD /* Build configuration list for PBXProject */ = {isa = XCConfigurationList; buildConfigurations = (73BFC4993D558C2844970A56 /* Debug */, 3C5BC6FE1E438E679FB7F74F /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
 		7ADE71700E9404B10E13B577 /* Build configuration list for PBXNativeTarget */ = {isa = XCConfigurationList; buildConfigurations = (A45358D7F57D12409C956205 /* Debug */, 7A3CC3E65B4BE81911CE6871 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A00100000000000000000005 /* Build configuration list for PBXNativeTarget */ = {isa = XCConfigurationList; buildConfigurations = (A00100000000000000000003 /* Debug */, A00100000000000000000004 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A00100000000000000000008 /* Build configuration list for PBXNativeTarget */ = {isa = XCConfigurationList; buildConfigurations = (A00100000000000000000006 /* Debug */, A00100000000000000000007 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
 /* End XCConfigurationList section */
 /* Begin PBXNativeTarget section */
 		444EBDC99E543FCFF5680C2D /* SeasonalTea */ = {isa = PBXNativeTarget; buildConfigurationList = 7ADE71700E9404B10E13B577 /* Build configuration list for PBXNativeTarget */; buildPhases = (1CDF2F71A52B082132B04DFF /* Sources */, CF5BDB0BEAFE176F9629192A /* Frameworks */, C02F1309AF4906C92F1EAD44 /* Resources */,); buildRules = (); dependencies = (); name = SeasonalTea; productName = SeasonalTea; productReference = A9170DB884ABEDC2195B41BC /* SeasonalTea.app */; productType = "com.apple.product-type.application"; };
+		A00100000000000000000001 /* SeasonalTeaTests */ = {isa = PBXNativeTarget; buildConfigurationList = A00100000000000000000005 /* Build configuration list for PBXNativeTarget */; buildPhases = (A00100000000000000000009 /* Sources */, A0010000000000000000000B /* Frameworks */,); buildRules = (); dependencies = (A0010000000000000000001A /* PBXTargetDependency */,); name = SeasonalTeaTests; productName = SeasonalTeaTests; productReference = A00100000000000000000011 /* SeasonalTeaTests.xctest */; productType = "com.apple.product-type.bundle.unit-test"; };
+		A00100000000000000000002 /* SeasonalTeaUITests */ = {isa = PBXNativeTarget; buildConfigurationList = A00100000000000000000008 /* Build configuration list for PBXNativeTarget */; buildPhases = (A0010000000000000000000A /* Sources */, A0010000000000000000000C /* Frameworks */,); buildRules = (); dependencies = (A0010000000000000000001B /* PBXTargetDependency */,); name = SeasonalTeaUITests; productName = SeasonalTeaUITests; productReference = A00100000000000000000012 /* SeasonalTeaUITests.xctest */; productType = "com.apple.product-type.bundle.ui-testing"; };
 /* End PBXNativeTarget section */
 /* Begin PBXProject section */
-		845D0F7D97FA48E7E6C791B4 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 1600; TargetAttributes = {444EBDC99E543FCFF5680C2D = {CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = 12D04D787E90C9B967248BFD /* Build configuration list for PBXProject */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,); mainGroup = ADCF10F76EBF2A74473E9DC4; productRefGroup = 00C45FD35CB0F9C5F764F070; projectDirPath = ""; projectRoot = ""; targets = (444EBDC99E543FCFF5680C2D /* SeasonalTea */,); };
+		845D0F7D97FA48E7E6C791B4 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 1600; TargetAttributes = {444EBDC99E543FCFF5680C2D = {CreatedOnToolsVersion = 16.0; }; A00100000000000000000001 = {CreatedOnToolsVersion = 16.0; TestTargetID = 444EBDC99E543FCFF5680C2D; }; A00100000000000000000002 = {CreatedOnToolsVersion = 16.0; TestTargetID = 444EBDC99E543FCFF5680C2D; }; }; }; buildConfigurationList = 12D04D787E90C9B967248BFD /* Build configuration list for PBXProject */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,); mainGroup = ADCF10F76EBF2A74473E9DC4; productRefGroup = 00C45FD35CB0F9C5F764F070; projectDirPath = ""; projectRoot = ""; targets = (444EBDC99E543FCFF5680C2D /* SeasonalTea */, A00100000000000000000001 /* SeasonalTeaTests */, A00100000000000000000002 /* SeasonalTeaUITests */,); };
 /* End PBXProject section */
 	};
 	rootObject = 845D0F7D97FA48E7E6C791B4 /* Project object */;

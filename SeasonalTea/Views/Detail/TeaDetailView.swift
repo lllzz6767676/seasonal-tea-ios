@@ -109,6 +109,7 @@ struct TeaDetailView: View {
                                     .foregroundStyle(TeaPalette.green)
                             }
                             .padding(.top, 2)
+                            .accessibilityIdentifier("tea.sourceLink")
                         }
                     }
                 }

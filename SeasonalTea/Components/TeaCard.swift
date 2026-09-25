@@ -58,5 +58,6 @@ struct TeaCard: View {
             }
         }
         .buttonStyle(PressableCardStyle())
+        .accessibilityIdentifier("teaCard.\(tea.id)")
     }
 }
