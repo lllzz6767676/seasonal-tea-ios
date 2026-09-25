@@ -17,11 +17,11 @@ struct SolarTermService {
         var calendar = Calendar(identifier: .gregorian)
         calendar.timeZone = Self.chinaTimeZone
         let year = calendar.component(.year, from: date)
-        let events = ((year - 1)...(year + 1)).flatMap { events(in: $0) }
+        let solarTerms = ((year - 1)...(year + 1)).flatMap { events(in: $0) }
             .filter { $0.startDate <= date }
             .sorted { $0.startDate < $1.startDate }
 
-        return events.last ?? SolarTerm(
+        return solarTerms.last ?? SolarTerm(
             name: "立春",
             season: "春",
             startDate: date,
