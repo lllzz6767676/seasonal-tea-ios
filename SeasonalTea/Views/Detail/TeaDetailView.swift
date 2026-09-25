@@ -109,6 +109,8 @@ struct TeaDetailView: View {
                                     .foregroundStyle(TeaPalette.green)
                             }
                             .padding(.top, 2)
+                            .accessibilityElement(children: .combine)
+                            .accessibilityLabel("查看原始资料")
                             .accessibilityIdentifier("tea.sourceLink")
                         }
                     }

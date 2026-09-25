@@ -1,4 +1,4 @@
-name: iOS simulator smoke test
+name: iOS simulator automated tests
 
 on:
   push:
@@ -25,6 +25,7 @@ jobs:
           DEVICE_INFO="$(python3 - <<'PY'
           import json
           import subprocess
+          import sys
 
           devices = json.loads(subprocess.check_output(
               ["xcrun", "simctl", "list", "devices", "available", "--json"], text=True
@@ -32,15 +33,38 @@ jobs:
           iphones = [device for runtime in devices.values() for device in runtime
                      if device["isAvailable"] and device["name"].startswith("iPhone")]
           selected = next((device for device in iphones if device["name"] == "iPhone 12"), None)
+          if selected is None:
+              device_types = json.loads(subprocess.check_output(
+                  ["xcrun", "simctl", "list", "devicetypes", "--json"], text=True
+              ))["devicetypes"]
+              iphone_12 = next((item for item in device_types if item["name"] == "iPhone 12"), None)
+              runtimes = json.loads(subprocess.check_output(
+                  ["xcrun", "simctl", "list", "runtimes", "--json"], text=True
+              ))["runtimes"]
+              ios_runtimes = [runtime for runtime in runtimes
+                              if runtime["isAvailable"] and runtime["name"].startswith("iOS")]
+              if iphone_12 and ios_runtimes:
+                  runtime = max(ios_runtimes, key=lambda item: item.get("version", ""))
+                  try:
+                      udid = subprocess.check_output([
+                          "xcrun", "simctl", "create", "iPhone 12",
+                          iphone_12["identifier"], runtime["identifier"]
+                      ], text=True).strip()
+                      selected = {"name": "iPhone 12", "udid": udid}
+                  except subprocess.CalledProcessError as error:
+                      print(f"Could not create an iPhone 12 simulator: {error}", file=sys.stderr)
           selected = selected or (iphones[0] if iphones else None)
           if selected is None:
               raise SystemExit("No available iPhone simulator was found")
+          if selected["name"] != "iPhone 12":
+              print(f"Using fallback iPhone simulator: {selected['name']}", file=sys.stderr)
           print(f"{selected['name']}|{selected['udid']}")
           PY
           )"
           SIMULATOR_NAME="${DEVICE_INFO%%|*}"
           SIMULATOR_ID="${DEVICE_INFO#*|}"
           echo "Using iPhone simulator: $SIMULATOR_NAME ($SIMULATOR_ID)"
+          echo "Simulator used: $SIMULATOR_NAME" >> "$GITHUB_STEP_SUMMARY"
           echo "SIMULATOR_NAME=$SIMULATOR_NAME" >> "$GITHUB_ENV"
           echo "SIMULATOR_ID=$SIMULATOR_ID" >> "$GITHUB_ENV"
           if xcodebuild \
@@ -54,6 +78,7 @@ jobs:
               CODE_SIGNING_ALLOWED=NO \
               test 2>&1 | tee "$RUNNER_TEMP/xcodebuild.log"; then
             echo "Unit and UI tests passed on $SIMULATOR_NAME."
+            echo "All unit and UI tests passed on **$SIMULATOR_NAME**." >> "$GITHUB_STEP_SUMMARY"
           else
             result="${PIPESTATUS[0]}"
             diagnostic="$(python3 - "$RUNNER_TEMP/xcodebuild.log" <<'PY'
@@ -95,6 +120,14 @@ jobs:
         with:
           name: xcodebuild-log
           path: ${{ runner.temp }}/xcodebuild.log
+          if-no-files-found: ignore
+
+      - name: Save XCTest result bundle
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: seasonal-tea-xcresult
+          path: ${{ runner.temp }}/SeasonalTea.xcresult
           if-no-files-found: ignore
 
       - name: Launch app and capture simulator screenshot

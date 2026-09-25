@@ -32,18 +32,18 @@ final class SeasonalTeaFlowTests: XCTestCase {
         XCTAssertTrue(app.staticTexts.containing(NSPredicate(format: "label CONTAINS %@", "国家卫生健康委食养指南" )).firstMatch.exists)
 
         tapElement("teaCard.hibiscus")
-        XCTAssertTrue(app.navigationBars["洛神花茶"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["原料"].waitForExistence(timeout: 5), "Detail page was not opened.\n\(app.debugDescription)")
 
         for section in ["原料", "功效 / 食养定位", "配方与制作", "证据说明", "注意事项", "来源"] {
             XCTAssertTrue(app.staticTexts[section].exists, "Missing detail section: \(section)")
         }
         XCTAssertTrue(app.buttons["分享茶饮资料"].exists)
 
-        let sourceLink = app.descendants(matching: .any).matching(identifier: "tea.sourceLink").firstMatch
+        let sourceLink = app.links["查看原始资料"]
         for _ in 0..<8 where !sourceLink.isHittable {
-            app.swipeUp()
+            app.scrollViews.firstMatch.swipeUp()
         }
-        XCTAssertTrue(sourceLink.isHittable)
+        XCTAssertTrue(sourceLink.isHittable, "Source link was not reachable.\n\(app.debugDescription)")
     }
 
     func testSearchFindsTeaByIngredient() {
@@ -66,12 +66,13 @@ final class SeasonalTeaFlowTests: XCTestCase {
         tapElement("home.enterLibrary")
         tapElement("library.category.血压管理")
         tapElement("teaCard.hibiscus")
+        XCTAssertTrue(app.staticTexts["原料"].waitForExistence(timeout: 5), "Detail page was not opened.\n\(app.debugDescription)")
 
-        let sourceLink = app.descendants(matching: .any).matching(identifier: "tea.sourceLink").firstMatch
+        let sourceLink = app.links["查看原始资料"]
         for _ in 0..<8 where !sourceLink.isHittable {
-            app.swipeUp()
+            app.scrollViews.firstMatch.swipeUp()
         }
-        XCTAssertTrue(sourceLink.isHittable)
+        XCTAssertTrue(sourceLink.isHittable, "Source link was not reachable.\n\(app.debugDescription)")
         sourceLink.tap()
 
         let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
@@ -82,14 +83,7 @@ final class SeasonalTeaFlowTests: XCTestCase {
         tapElement("home.enterLibrary")
         XCTAssertTrue(app.navigationBars["养生茶库"].waitForExistence(timeout: 5))
 
-        let searchField = app.searchFields.firstMatch
-        if !searchField.waitForExistence(timeout: 2) || !searchField.isHittable {
-            let searchButton = app.buttons.matching(
-                NSPredicate(format: "label CONTAINS[c] %@ OR label CONTAINS[c] %@", "search", "搜索")
-            ).firstMatch
-            XCTAssertTrue(searchButton.waitForExistence(timeout: 5))
-            searchButton.tap()
-        }
+        let searchField = app.textFields["library.searchField"]
         XCTAssertTrue(searchField.waitForExistence(timeout: 5))
         return searchField
     }

@@ -19,6 +19,8 @@ struct TeaLibraryView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 23) {
+                searchBar
+
                 if isSearching {
                     searchContent
                 } else {
@@ -34,8 +36,6 @@ struct TeaLibraryView: View {
         .background(TeaPalette.background.ignoresSafeArea())
         .navigationTitle("养生茶库")
         .navigationBarTitleDisplayMode(.large)
-        .searchable(text: $searchText, prompt: "搜索茶名、功效或原料")
-        .autocorrectionDisabled()
         .task(id: searchText) {
             let query = searchText.trimmingCharacters(in: .whitespacesAndNewlines)
             guard !query.isEmpty else {
@@ -53,6 +53,38 @@ struct TeaLibraryView: View {
             guard !Task.isCancelled else { return }
             searchResults = searchService.search(query)
             searchPending = false
+        }
+    }
+
+    private var searchBar: some View {
+        HStack(spacing: 11) {
+            Image(systemName: "magnifyingglass")
+                .foregroundStyle(TeaPalette.secondaryInk)
+                .accessibilityHidden(true)
+
+            TextField("搜索茶名、功效或原料", text: $searchText)
+                .font(.body)
+                .textInputAutocapitalization(.never)
+                .autocorrectionDisabled()
+                .submitLabel(.search)
+                .accessibilityIdentifier("library.searchField")
+
+            if !searchText.isEmpty {
+                Button {
+                    searchText = ""
+                } label: {
+                    Image(systemName: "xmark.circle.fill")
+                        .foregroundStyle(TeaPalette.secondaryInk.opacity(0.8))
+                }
+                .accessibilityLabel("清除搜索")
+            }
+        }
+        .padding(.horizontal, 15)
+        .frame(minHeight: 52)
+        .background(TeaPalette.card, in: RoundedRectangle(cornerRadius: 17, style: .continuous))
+        .overlay {
+            RoundedRectangle(cornerRadius: 17, style: .continuous)
+                .stroke(TeaPalette.green.opacity(0.09), lineWidth: 1)
         }
     }
 
