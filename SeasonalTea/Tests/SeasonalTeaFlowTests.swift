@@ -39,7 +39,7 @@ final class SeasonalTeaFlowTests: XCTestCase {
         }
         XCTAssertTrue(app.buttons["分享茶饮资料"].exists)
 
-        let sourceLink = app.links["查看原始资料"]
+        let sourceLink = app.buttons["tea.sourceLink"]
         for _ in 0..<8 where !sourceLink.isHittable {
             app.scrollViews.firstMatch.swipeUp()
         }
@@ -68,7 +68,7 @@ final class SeasonalTeaFlowTests: XCTestCase {
         tapElement("teaCard.hibiscus")
         XCTAssertTrue(app.staticTexts["原料"].waitForExistence(timeout: 5), "Detail page was not opened.\n\(app.debugDescription)")
 
-        let sourceLink = app.links["查看原始资料"]
+        let sourceLink = app.buttons["tea.sourceLink"]
         for _ in 0..<8 where !sourceLink.isHittable {
             app.scrollViews.firstMatch.swipeUp()
         }
