@@ -1,0 +1,2214 @@
+[
+  {
+    "id": "hibiscus",
+    "name": "洛神花茶",
+    "kind": "单品茶饮",
+    "category": "血压管理",
+    "tags": [
+      "洛神花",
+      "血压",
+      "无咖啡因"
+    ],
+    "benefit": "有限人体随机试验提示：部分血压偏高且未服降压药的成人规律饮用后，收缩压可能小幅下降。不能替代降压治疗。",
+    "recipe": "干燥洛神花约 2–3 g，热水约 250 mL，浸泡 5–10 分钟。作为日常饮品，不额外加糖更合适。",
+    "evidenceLabel": "人体直接研究",
+    "evidenceSummary": "有限人体随机试验提示：部分血压偏高且未服降压药的成人规律饮用后，收缩压可能小幅下降。不能替代降压治疗。",
+    "sourceTitle": "McKay et al., J Nutr, 2010（65名血压偏高成人，3杯/日，6周）",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/20018807/",
+    "cautions": [
+      "正在使用降压药、存在低血压或慢性病者，不要自行用其替代治疗。"
+    ],
+    "seasonRecommendable": true,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "血压管理"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "干燥洛神花",
+        "amount": "2–3 g"
+      }
+    ]
+  },
+  {
+    "id": "green",
+    "name": "绿茶",
+    "kind": "单品茶饮",
+    "category": "提神认知",
+    "tags": [
+      "绿茶",
+      "咖啡因",
+      "提神",
+      "血脂"
+    ],
+    "benefit": "绿茶含咖啡因，可能帮助提高警觉；长期摄入与部分血压、血脂指标的小幅改善有关。但普通一杯绿茶未必达到 EFSA 健康声称所用的 75 mg 咖啡因/份条件。",
+    "recipe": "绿茶约 2–3 g，80–85℃热水 200–250 mL，浸泡 2–3 分钟。对咖啡因敏感者减少茶量或缩短浸泡。",
+    "evidenceLabel": "系统综述 + 成分证据",
+    "evidenceSummary": "绿茶含咖啡因，可能帮助提高警觉；长期摄入与部分血压、血脂指标的小幅改善有关。但普通一杯绿茶未必达到 EFSA 健康声称所用的 75 mg 咖啡因/份条件。",
+    "sourceTitle": "NCCIH Green Tea；EFSA 咖啡因健康声称资料",
+    "sourceUrl": "https://www.nccih.nih.gov/health/green-tea",
+    "cautions": [
+      "晚间、失眠倾向或对咖啡因敏感者减少饮用。",
+      "服用铁剂时不要用茶送服，并尽量与茶间隔约2小时。"
+    ],
+    "seasonRecommendable": true,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "血压管理",
+      "血脂管理",
+      "提神与认知"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "绿茶",
+        "amount": "2–3 g"
+      }
+    ]
+  },
+  {
+    "id": "ginger",
+    "name": "生姜茶",
+    "kind": "单品茶饮",
+    "category": "胃肠恶心",
+    "tags": [
+      "生姜",
+      "恶心",
+      "热饮"
+    ],
+    "benefit": "生姜对部分恶心情形有一定证据，但多数研究使用生姜制剂或补充剂；不能把“生姜有效”直接等同于某杯姜茶具有相同疗效。",
+    "recipe": "鲜姜约 3–5 g 切片，热水约 300 mL 浸泡 8–10 分钟。作为日常热饮，不把它当作临床剂量。",
+    "evidenceLabel": "成分证据为主",
+    "evidenceSummary": "生姜对部分恶心情形有一定证据，但多数研究使用生姜制剂或补充剂；不能把“生姜有效”直接等同于某杯姜茶具有相同疗效。",
+    "sourceTitle": "NCCIH Ginger",
+    "sourceUrl": "https://www.nccih.nih.gov/health/ginger",
+    "cautions": [
+      "孕妇不宜自行把姜茶当止吐治疗，应先咨询产科医生。",
+      "持续或严重恶心应就医。"
+    ],
+    "seasonRecommendable": true,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "胃肠 / 恶心"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "鲜姜",
+        "amount": "3–5 g"
+      }
+    ]
+  },
+  {
+    "id": "honey_lemon",
+    "name": "蜂蜜柠檬温饮",
+    "kind": "单品茶饮",
+    "category": "咳嗽咽喉",
+    "tags": [
+      "蜂蜜",
+      "咳嗽",
+      "喉咙"
+    ],
+    "benefit": "与急性咳嗽相关的较直接证据主要来自蜂蜜，而且主要针对儿童；柠檬主要提供风味，不能把效果归给柠檬。",
+    "recipe": "温水约 250 mL + 蜂蜜约 1 茶匙 + 少量柠檬汁调味。",
+    "evidenceLabel": "系统综述（特定人群）",
+    "evidenceSummary": "与急性咳嗽相关的较直接证据主要来自蜂蜜，而且主要针对儿童；柠檬主要提供风味，不能把效果归给柠檬。",
+    "sourceTitle": "Cochrane：Honey for acute cough in children",
+    "sourceUrl": "https://www.cochrane.org/evidence/CD007094_honey-acute-cough-children",
+    "cautions": [
+      "1岁以下婴儿不能食用蜂蜜。",
+      "持续高热、气喘、胸痛、咯血或久咳应就医。"
+    ],
+    "seasonRecommendable": true,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "咳嗽 / 咽喉"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "蜂蜜",
+        "amount": "1 茶匙"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "少量"
+      }
+    ]
+  },
+  {
+    "id": "cold_brew",
+    "name": "无糖冷泡茶",
+    "kind": "单品茶饮",
+    "category": "少糖替代",
+    "tags": [
+      "无糖",
+      "冷泡",
+      "饮料替代"
+    ],
+    "benefit": "主要价值是替代含糖饮料，从而减少添加糖和额外能量摄入；不是“冷泡本身具有治疗作用”。",
+    "recipe": "茶叶约 3–5 g + 饮用水 500 mL，放入干净密闭容器，全程冷藏 4–8 小时。",
+    "evidenceLabel": "饮食替代原则",
+    "evidenceSummary": "主要价值是替代含糖饮料，从而减少添加糖和额外能量摄入；不是“冷泡本身具有治疗作用”。",
+    "sourceTitle": "美国 CDC / Dietary Guidelines：减少含糖饮料与添加糖",
+    "sourceUrl": "https://www.cdc.gov/healthy-weight-growth/be-sugar-smart/index.html",
+    "cautions": [
+      "必须使用干净容器并全程冷藏。",
+      "含咖啡因茶底仍需考虑咖啡因摄入。",
+      "服铁剂时不要用茶送服。"
+    ],
+    "seasonRecommendable": true,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "少糖饮品替代"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "茶叶",
+        "amount": "3–5 g"
+      }
+    ]
+  },
+  {
+    "id": "black_tea",
+    "name": "红茶",
+    "kind": "单品茶饮",
+    "category": "血压管理",
+    "tags": [
+      "红茶",
+      "血压",
+      "咖啡因"
+    ],
+    "benefit": "随机试验和 Meta 分析提示，长期饮用红茶可能使血压出现非常小幅变化；这不等于可以靠红茶治疗高血压。",
+    "recipe": "红茶约 2–3 g，90–95℃热水约 250 mL，浸泡 3–5 分钟；此处为日常饮用法，不是治疗剂量。",
+    "evidenceLabel": "随机试验 / Meta 分析",
+    "evidenceSummary": "随机试验和 Meta 分析提示，长期饮用红茶可能使血压出现非常小幅变化；这不等于可以靠红茶治疗高血压。",
+    "sourceTitle": "Meta-analysis of black tea and blood pressure",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25079225/",
+    "cautions": [
+      "含咖啡因；睡眠差、心悸或对咖啡因敏感者注意。"
+    ],
+    "seasonRecommendable": true,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "血压管理"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "红茶",
+        "amount": "2–3 g"
+      }
+    ]
+  },
+  {
+    "id": "chamomile",
+    "name": "洋甘菊茶",
+    "kind": "单品茶饮",
+    "category": "血糖代谢",
+    "tags": [
+      "洋甘菊",
+      "血糖"
+    ],
+    "benefit": "一项小型随机研究在 2 型糖尿病患者中观察到部分糖代谢指标改善；不能据此宣传“治疗糖尿病”，对失眠的证据也不足。",
+    "recipe": "研究制法与产品差异较大；初版不设统一治疗性剂量。日常饮用请按正规食品/茶包标签冲泡。",
+    "evidenceLabel": "小型人体随机试验",
+    "evidenceSummary": "一项小型随机研究在 2 型糖尿病患者中观察到部分糖代谢指标改善；不能据此宣传“治疗糖尿病”，对失眠的证据也不足。",
+    "sourceTitle": "Chamomile tea and glycemic control in type 2 diabetes",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25194428/",
+    "cautions": [
+      "糖尿病患者仍应以正规治疗、饮食和运动管理为主。",
+      "菊科植物过敏者慎用。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "血糖代谢"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "洋甘菊",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "passionflower",
+    "name": "西番莲茶",
+    "kind": "单品茶饮",
+    "category": "睡眠情绪",
+    "tags": [
+      "西番莲",
+      "睡眠"
+    ],
+    "benefit": "小型双盲研究提示，短期饮用可能改善主观睡眠质量；证据规模仍小。",
+    "recipe": "研究配方与商品差异较大；初版不设统一治疗性剂量，日常饮用按正规产品说明冲泡。",
+    "evidenceLabel": "小型人体随机研究",
+    "evidenceSummary": "小型双盲研究提示，短期饮用可能改善主观睡眠质量；证据规模仍小。",
+    "sourceTitle": "Passiflora incarnata herbal tea and subjective sleep quality",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21294203/",
+    "cautions": [
+      "嗜睡、同时使用镇静类药物、孕期等情况应先咨询专业人员。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "睡眠与情绪"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "西番莲",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "spearmint",
+    "name": "绿薄荷茶",
+    "kind": "单品茶饮",
+    "category": "女性健康",
+    "tags": [
+      "绿薄荷",
+      "PCOS",
+      "女性"
+    ],
+    "benefit": "PCOS 女性小型研究中，部分雄激素指标下降；客观多毛评分未显著改善。不能宣传为治疗 PCOS。",
+    "recipe": "研究剂量和制法具有特定性；初版不把研究方案外推成通用治疗配方。",
+    "evidenceLabel": "小型人体随机研究",
+    "evidenceSummary": "PCOS 女性小型研究中，部分雄激素指标下降；客观多毛评分未显著改善。不能宣传为治疗 PCOS。",
+    "sourceTitle": "Spearmint herbal tea in women with hirsutism/PCOS",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/19585478/",
+    "cautions": [
+      "PCOS 属于需要正规评估和管理的疾病，不应以茶饮替代治疗。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "女性健康"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "绿薄荷",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "yerba_mate",
+    "name": "马黛茶",
+    "kind": "单品茶饮",
+    "category": "血脂管理",
+    "tags": [
+      "马黛茶",
+      "血脂",
+      "咖啡因"
+    ],
+    "benefit": "部分人体试验观察到血脂和心代谢指标变化，但研究配方和人群不一致，不能把马黛茶描述成降脂药。",
+    "recipe": "研究产品与剂量差异较大；日常饮用按正规产品说明，不按“功效”自行加量。",
+    "evidenceLabel": "人体试验（结果仍需更多验证）",
+    "evidenceSummary": "部分人体试验观察到血脂和心代谢指标变化，但研究配方和人群不一致，不能把马黛茶描述成降脂药。",
+    "sourceTitle": "Human trial evidence on yerba mate and cardiometabolic markers",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/40263915/",
+    "cautions": [
+      "通常含咖啡因；避免长期饮用过烫饮品。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "血脂管理"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "马黛",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "peppermint",
+    "name": "胡椒薄荷茶",
+    "kind": "单品茶饮",
+    "category": "提神认知",
+    "tags": [
+      "薄荷",
+      "认知"
+    ],
+    "benefit": "一项很小的随机研究观察到短期部分认知任务表现变化，证据仍非常初步。",
+    "recipe": "初版不设置“提高认知”的固定剂量；按正规茶包或食品标签冲泡即可。",
+    "evidenceLabel": "非常初步人体研究",
+    "evidenceSummary": "一项很小的随机研究观察到短期部分认知任务表现变化，证据仍非常初步。",
+    "sourceTitle": "Peppermint tea acute cognitive trial",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/40189738/",
+    "cautions": [
+      "胃食管反流明显者饮用薄荷类饮品后可能不适。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "提神与认知"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "胡椒薄荷",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "cinnamon",
+    "name": "肉桂茶",
+    "kind": "单品茶饮",
+    "category": "血糖代谢",
+    "tags": [
+      "肉桂",
+      "餐后血糖"
+    ],
+    "benefit": "短期小研究提示，与高糖餐同饮时可能影响部分餐后血糖峰值；不等于能治疗糖尿病。",
+    "recipe": "研究配方具有特定性；初版不把研究剂量外推为长期饮用剂量。日常饮用应少量，并避免自行长期大剂量使用肉桂。",
+    "evidenceLabel": "短期小型人体试验",
+    "evidenceSummary": "短期小研究提示，与高糖餐同饮时可能影响部分餐后血糖峰值；不等于能治疗糖尿病。",
+    "sourceTitle": "Cinnamon tea and postprandial glycemia",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/26258147/",
+    "cautions": [
+      "长期大量摄入肉桂并不合适；肝病、服药或孕期人群应先咨询专业人员。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "血糖代谢"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "肉桂",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "matcha",
+    "name": "抹茶",
+    "kind": "单品茶饮",
+    "category": "提神认知",
+    "tags": [
+      "抹茶",
+      "注意力",
+      "咖啡因"
+    ],
+    "benefit": "一项随机研究使用 2 g/日抹茶，在压力条件下观察到部分注意力表现差异；不能宣传为“增强智力”。",
+    "recipe": "日常可将约 1–2 g 抹茶粉加入温水搅匀；2 g/日是相关研究中出现过的量，不等于对所有人都适合。",
+    "evidenceLabel": "人体随机研究",
+    "evidenceSummary": "一项随机研究使用 2 g/日抹茶，在压力条件下观察到部分注意力表现差异；不能宣传为“增强智力”。",
+    "sourceTitle": "Matcha and cognitive function under stress",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/33744591/",
+    "cautions": [
+      "含咖啡因；失眠、心悸或咖啡因敏感者注意。"
+    ],
+    "seasonRecommendable": true,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "提神与认知"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "抹茶粉",
+        "amount": "1–2 g"
+      }
+    ]
+  },
+  {
+    "id": "rose",
+    "name": "玫瑰花茶",
+    "kind": "单品茶饮",
+    "category": "女性健康",
+    "tags": [
+      "玫瑰",
+      "痛经",
+      "女性"
+    ],
+    "benefit": "一项青少年原发性痛经研究观察到疼痛与不适改善；研究较老且人群特定，不能泛化为治疗所有痛经。",
+    "recipe": "研究制法具有特定性；初版不设统一治疗性剂量。日常饮用按正规食品级玫瑰花产品说明。",
+    "evidenceLabel": "特定人群人体研究",
+    "evidenceSummary": "一项青少年原发性痛经研究观察到疼痛与不适改善；研究较老且人群特定，不能泛化为治疗所有痛经。",
+    "sourceTitle": "Rose tea for primary dysmenorrhea",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16154059/",
+    "cautions": [
+      "严重、突然加重或伴异常出血的痛经应就医。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "女性健康"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "玫瑰花",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "mulberry_waterchestnut",
+    "name": "桑叶＋菱角壳茶",
+    "kind": "单品茶饮",
+    "category": "血糖代谢",
+    "tags": [
+      "桑叶",
+      "餐后血糖",
+      "复方"
+    ],
+    "benefit": "较新的随机研究提示，特定复方可能影响餐后血糖波动；这不等同于普通桑叶茶。",
+    "recipe": "这是研究中的特定复方，原料来源和剂量应按研究/正规产品执行；初版不自行换算成家庭治疗配方。",
+    "evidenceLabel": "特定复方人体随机研究",
+    "evidenceSummary": "较新的随机研究提示，特定复方可能影响餐后血糖波动；这不等同于普通桑叶茶。",
+    "sourceTitle": "Mulberry leaf + water chestnut shell tea trial",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42242851/",
+    "cautions": [
+      "不能替代糖尿病或糖尿病前期的标准管理。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "血糖代谢"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "桑叶＋菱角壳",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "saffron",
+    "name": "藏红花茶",
+    "kind": "单品茶饮",
+    "category": "睡眠情绪",
+    "tags": [
+      "藏红花",
+      "情绪"
+    ],
+    "benefit": "一项绝经后女性研究观察到部分主观幸福感或情绪评分变化；不能宣传成治疗抑郁或焦虑。",
+    "recipe": "藏红花属于需要谨慎控制用量的原料；初版不设置治疗性剂量，日常使用应按正规食品产品说明。",
+    "evidenceLabel": "特定人群人体研究",
+    "evidenceSummary": "一项绝经后女性研究观察到部分主观幸福感或情绪评分变化；不能宣传成治疗抑郁或焦虑。",
+    "sourceTitle": "Saffron tea study in postmenopausal women",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/37264347/",
+    "cautions": [
+      "孕期、出血风险、正在服药者不建议自行高剂量使用。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "睡眠与情绪"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "藏红花",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "rosemary",
+    "name": "迷迭香茶",
+    "kind": "单品茶饮",
+    "category": "提神认知",
+    "tags": [
+      "迷迭香",
+      "认知"
+    ],
+    "benefit": "小型人体研究观察到部分短期认知表现变化，属于早期证据。",
+    "recipe": "初版不把研究饮品外推为治疗性剂量；按食品级迷迭香茶或正规产品说明冲泡。",
+    "evidenceLabel": "小型人体研究",
+    "evidenceSummary": "小型人体研究观察到部分短期认知表现变化，属于早期证据。",
+    "sourceTitle": "Rosemary water and cognitive performance",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/30318972/",
+    "cautions": [
+      "孕期、癫痫或正在使用多种药物者不建议自行大量饮用。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "提神与认知"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "迷迭香",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "rooibos",
+    "name": "南非国宝茶（Rooibos）",
+    "kind": "单品茶饮",
+    "category": "血脂管理",
+    "tags": [
+      "Rooibos",
+      "血脂",
+      "无咖啡因"
+    ],
+    "benefit": "一项心血管风险较高成人研究观察到部分血脂指标改善，但总研究量仍少。",
+    "recipe": "按正规 Rooibos 茶产品说明冲泡；初版不把研究剂量外推为通用治疗剂量。",
+    "evidenceLabel": "人体研究",
+    "evidenceSummary": "一项心血管风险较高成人研究观察到部分血脂指标改善，但总研究量仍少。",
+    "sourceTitle": "Rooibos and cardiovascular risk markers",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/20833235/",
+    "cautions": [
+      "慢性病人群仍应以正规医疗和生活方式管理为主。"
+    ],
+    "seasonRecommendable": true,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "血脂管理"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "南非国宝（Rooibos）",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "gynostemma",
+    "name": "绞股蓝茶",
+    "kind": "单品茶饮",
+    "category": "血糖代谢",
+    "tags": [
+      "绞股蓝",
+      "血糖"
+    ],
+    "benefit": "仅有很小的 2 型糖尿病随机研究观察到部分血糖指标变化，证据不足以宣传“降糖茶”。",
+    "recipe": "初版不设置治疗性冲泡剂量；如作为食品/茶饮使用，应遵循合规产品标签。",
+    "evidenceLabel": "很小型人体随机研究",
+    "evidenceSummary": "仅有很小的 2 型糖尿病随机研究观察到部分血糖指标变化，证据不足以宣传“降糖茶”。",
+    "sourceTitle": "Gynostemma pentaphyllum tea in type 2 diabetes",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/20213586/",
+    "cautions": [
+      "糖尿病患者不要因此减少或停用药物。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "血糖代谢"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "绞股蓝",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "marjoram",
+    "name": "马郁兰茶",
+    "kind": "单品茶饮",
+    "category": "女性健康",
+    "tags": [
+      "马郁兰",
+      "PCOS"
+    ],
+    "benefit": "PCOS 女性 pilot 研究观察到部分激素与胰岛素相关指标变化；样本很小。",
+    "recipe": "初版不设置治疗性剂量；按正规食品级产品说明冲泡。",
+    "evidenceLabel": "Pilot 随机研究",
+    "evidenceSummary": "PCOS 女性 pilot 研究观察到部分激素与胰岛素相关指标变化；样本很小。",
+    "sourceTitle": "Marjoram tea in women with PCOS",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25662759/",
+    "cautions": [
+      "PCOS 需要系统评估与管理，不能用茶饮替代治疗。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "女性健康"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "马郁兰",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "pluchea",
+    "name": "Pluchea indica 茶",
+    "kind": "单品茶饮",
+    "category": "血糖代谢",
+    "tags": [
+      "Pluchea indica",
+      "糖尿病前期"
+    ],
+    "benefit": "糖尿病前期小型随机临床试验观察到部分血糖、甘油三酯和 LDL 指标变化，仍需更多验证。",
+    "recipe": "属于研究型条目；不同地区原料和制剂差异大，初版不建议用户自行按“功效”配制。",
+    "evidenceLabel": "小型人体随机临床试验",
+    "evidenceSummary": "糖尿病前期小型随机临床试验观察到部分血糖、甘油三酯和 LDL 指标变化，仍需更多验证。",
+    "sourceTitle": "Pluchea indica tea in prediabetes",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/34076495/",
+    "cautions": [
+      "原料标准化不足，不进入首页推荐池。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "血糖代谢"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "Pluchea indica",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "fermented_blueberry_leaf",
+    "name": "发酵蓝莓叶茶",
+    "kind": "单品茶饮",
+    "category": "睡眠情绪",
+    "tags": [
+      "蓝莓叶",
+      "睡眠"
+    ],
+    "benefit": "2025 年小型双盲随机研究观察到部分睡眠效率指标变化，属于早期证据。",
+    "recipe": "研究材料属于特定发酵蓝莓叶制品；初版不将其外推为普通蓝莓叶家庭配方。",
+    "evidenceLabel": "较新小型双盲 RCT",
+    "evidenceSummary": "2025 年小型双盲随机研究观察到部分睡眠效率指标变化，属于早期证据。",
+    "sourceTitle": "Fermented blueberry leaf tea sleep trial",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/40195645/",
+    "cautions": [
+      "属于研究型条目，不进入首页推荐池。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "睡眠与情绪"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "发酵蓝莓叶",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "raspberry_leaf",
+    "name": "覆盆子叶茶",
+    "kind": "单品茶饮",
+    "category": "血糖代谢",
+    "tags": [
+      "覆盆子叶",
+      "餐后血糖"
+    ],
+    "benefit": "2025 年小型随机交叉研究中，与蔗糖同服可能降低短期餐后血糖和胰岛素峰值；不能外推为长期控糖方案。",
+    "recipe": "初版不把研究配方外推为家庭治疗剂量；按正规产品说明饮用。",
+    "evidenceLabel": "小型随机交叉研究",
+    "evidenceSummary": "2025 年小型随机交叉研究中，与蔗糖同服可能降低短期餐后血糖和胰岛素峰值；不能外推为长期控糖方案。",
+    "sourceTitle": "Raspberry leaf tea and postprandial glucose",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/40944237/",
+    "cautions": [
+      "孕期使用覆盆子叶类产品前应咨询产科专业人员。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "血糖代谢"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "覆盆子叶",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "buckwheat_herb",
+    "name": "荞麦草茶",
+    "kind": "单品茶饮",
+    "category": "循环与水肿",
+    "tags": [
+      "荞麦草",
+      "静脉",
+      "水肿"
+    ],
+    "benefit": "慢性静脉功能不全患者的随机试验观察到下肢水肿增加速度的变化；不应把它宣传成普通“消水肿茶”。",
+    "recipe": "该研究针对特定疾病和制剂；初版不提供家庭治疗剂量。",
+    "evidenceLabel": "疾病特定人体随机试验",
+    "evidenceSummary": "慢性静脉功能不全患者的随机试验观察到下肢水肿增加速度的变化；不应把它宣传成普通“消水肿茶”。",
+    "sourceTitle": "Buckwheat herb tea in chronic venous insufficiency",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8858269/",
+    "cautions": [
+      "原因不明或突然出现的水肿应就医排查心、肾、静脉等原因。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "循环 / 水肿相关"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "荞麦草",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "oolong",
+    "name": "乌龙茶",
+    "kind": "单品茶饮",
+    "category": "血糖代谢",
+    "tags": [
+      "乌龙茶",
+      "血糖",
+      "咖啡因"
+    ],
+    "benefit": "少量 2 型糖尿病研究观察到血糖改善，但其他研究并未一致重复，证据存在冲突。",
+    "recipe": "乌龙茶约 2–3 g，90℃左右热水冲泡；此处仅为日常饮用法，不是治疗剂量。",
+    "evidenceLabel": "人体研究结果不一致",
+    "evidenceSummary": "少量 2 型糖尿病研究观察到血糖改善，但其他研究并未一致重复，证据存在冲突。",
+    "sourceTitle": "Oolong tea study in type 2 diabetes",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12766099/",
+    "cautions": [
+      "含咖啡因；不能替代糖尿病治疗。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "血糖代谢"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "乌龙茶",
+        "amount": "2–3 g"
+      }
+    ]
+  },
+  {
+    "id": "olive_leaf",
+    "name": "橄榄叶茶",
+    "kind": "单品茶饮",
+    "category": "血脂管理",
+    "tags": [
+      "橄榄叶",
+      "血脂"
+    ],
+    "benefit": "糖尿病前期探索性 RCT 观察到部分 LDL/TG 指标变化，但另一类急性研究并未显示明确血糖改善。",
+    "recipe": "研究产品和剂量不统一；初版不设治疗性家庭配方。",
+    "evidenceLabel": "探索性人体随机研究",
+    "evidenceSummary": "糖尿病前期探索性 RCT 观察到部分 LDL/TG 指标变化，但另一类急性研究并未显示明确血糖改善。",
+    "sourceTitle": "Olive leaf tea trial in prediabetes",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/31158739/",
+    "cautions": [
+      "服降压、降糖药物者不应自行大量使用。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "血脂管理",
+      "血糖代谢"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "橄榄叶",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "low_caffeine_green",
+    "name": "低咖啡因绿茶",
+    "kind": "单品茶饮",
+    "category": "睡眠情绪",
+    "tags": [
+      "低咖啡因",
+      "绿茶",
+      "睡眠"
+    ],
+    "benefit": "特定中老年小样本人群研究中，低咖啡因绿茶与部分压力和睡眠指标变化相关；不能等同于普通绿茶。",
+    "recipe": "必须明确是低咖啡因产品；按研究/产品说明饮用，不能用普通绿茶替代后宣称同样效果。",
+    "evidenceLabel": "小样本人群研究",
+    "evidenceSummary": "特定中老年小样本人群研究中，低咖啡因绿茶与部分压力和睡眠指标变化相关；不能等同于普通绿茶。",
+    "sourceTitle": "Low-caffeine green tea and sleep/stress",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/29203963/",
+    "cautions": [
+      "仍可能含少量咖啡因。"
+    ],
+    "seasonRecommendable": true,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "睡眠与情绪"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "低咖啡因绿",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "lavender",
+    "name": "薰衣草茶",
+    "kind": "单品茶饮",
+    "category": "睡眠情绪",
+    "tags": [
+      "薰衣草",
+      "焦虑",
+      "情绪"
+    ],
+    "benefit": "一项短期研究中，部分老年人的焦虑/抑郁评分下降；设计和疗程有限，确定性较低。",
+    "recipe": "初版不设治疗性剂量；按食品级薰衣草茶产品说明少量冲泡。",
+    "evidenceLabel": "低确定性人体研究",
+    "evidenceSummary": "一项短期研究中，部分老年人的焦虑/抑郁评分下降；设计和疗程有限，确定性较低。",
+    "sourceTitle": "Lavender herbal tea in older adults",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/32444033/",
+    "cautions": [
+      "若焦虑、抑郁持续或明显影响生活，应寻求专业帮助。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "睡眠与情绪"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "薰衣草",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "guava_leaf",
+    "name": "番石榴叶茶",
+    "kind": "单品茶饮",
+    "category": "血糖代谢",
+    "tags": [
+      "番石榴叶",
+      "餐后血糖"
+    ],
+    "benefit": "小型人体茶饮研究提示，与餐同饮可能降低部分餐后血糖升高幅度；不能代替降糖药。",
+    "recipe": "研究制法和标准化程度有限；初版不设治疗性家庭配方。",
+    "evidenceLabel": "小型人体茶饮研究",
+    "evidenceSummary": "小型人体茶饮研究提示，与餐同饮可能降低部分餐后血糖升高幅度；不能代替降糖药。",
+    "sourceTitle": "Guava leaf tea and postprandial glucose",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/20181067/",
+    "cautions": [
+      "糖尿病患者不要因此调整药物。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "血糖代谢"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "番石榴叶",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "sage",
+    "name": "鼠尾草茶",
+    "kind": "单品茶饮",
+    "category": "血脂管理",
+    "tags": [
+      "鼠尾草",
+      "血脂"
+    ],
+    "benefit": "极小型 pilot 研究（仅数名参与者）观察到部分胆固醇指标变化，证据非常初步。",
+    "recipe": "仅作为研究条目展示；不设治疗性家庭剂量。",
+    "evidenceLabel": "极小型 Pilot",
+    "evidenceSummary": "极小型 pilot 研究（仅数名参与者）观察到部分胆固醇指标变化，证据非常初步。",
+    "sourceTitle": "Sage tea lipid pilot study",
+    "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/19865527/",
+    "cautions": [
+      "证据过弱，不进入首页推荐池；孕期或癫痫风险人群尤其不建议自行高剂量使用。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "人体研究/系统综述条目；具体效果仅限现有证据所覆盖的人群和条件。",
+    "categories": [
+      "血脂管理"
+    ],
+    "type": "单品茶饮",
+    "ingredients": [
+      {
+        "name": "鼠尾草",
+        "amount": ""
+      }
+    ]
+  },
+  {
+    "id": "lipid_shanzha_juhua_juemingzi",
+    "name": "山楂菊花决明子茶",
+    "kind": "复方食养茶",
+    "category": "血脂管理",
+    "tags": [
+      "痰浊内阻型高脂血症食谱中的茶饮",
+      "成人高脂血症食养指南（2023年版）"
+    ],
+    "benefit": "用于高脂血症人群的辨证食养参考；不能写成“喝此茶即可降血脂”，也不能替代降脂治疗。",
+    "recipe": "按国家卫生健康委食养指南原方使用；本版保留原配料克数，但未在来源中核实到统一冲泡细节时，不自行编造煎煮时间。 配料：山楂 9g；菊花 6g；炒决明子 9g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高脂血症食养指南（2023年版）》 · 痰浊内阻型高脂血症食谱中的茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/cms-search/downFiles/252e7bd69d064fc5a00f02fbc64b5e23.pdf",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "痰浊内阻型高脂血症食谱中的茶饮",
+    "categories": [
+      "血脂管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "山楂",
+        "amount": "9g"
+      },
+      {
+        "name": "菊花",
+        "amount": "6g"
+      },
+      {
+        "name": "炒决明子",
+        "amount": "9g"
+      }
+    ]
+  },
+  {
+    "id": "lipid_sanxian_tea",
+    "name": "三鲜茶",
+    "kind": "复方食养茶",
+    "category": "血脂管理",
+    "tags": [
+      "痰浊内阻型经验茶饮",
+      "成人高脂血症食养指南（2023年版）"
+    ],
+    "benefit": "指南将其作为痰浊内阻型的经验食养茶饮；属于辨证食养，不等于临床试验证实的降脂治疗。",
+    "recipe": "洗净、切碎，用滚开水冲泡或稍煮，分多次代茶饮用。 配料：鲜荷叶 10g；鲜藿香 10g；鲜橘皮 10g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高脂血症食养指南（2023年版）》 · 痰浊内阻型经验茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/cms-search/downFiles/252e7bd69d064fc5a00f02fbc64b5e23.pdf",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "痰浊内阻型经验茶饮",
+    "categories": [
+      "血脂管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "鲜荷叶",
+        "amount": "10g"
+      },
+      {
+        "name": "鲜藿香",
+        "amount": "10g"
+      },
+      {
+        "name": "鲜橘皮",
+        "amount": "10g"
+      }
+    ]
+  },
+  {
+    "id": "lipid_sanxian_drink",
+    "name": "三鲜饮",
+    "kind": "复方食养茶",
+    "category": "血脂管理",
+    "tags": [
+      "痰浊内阻型食谱中的茶饮",
+      "成人高脂血症食养指南（2023年版）"
+    ],
+    "benefit": "用于高脂血症人群的辨证食养参考；配方被官方食养指南收录，不代表精确复方已被大型随机试验证实。",
+    "recipe": "按国家卫生健康委食养指南原方使用；本版保留原配料克数，但未在来源中核实到统一冲泡细节时，不自行编造煎煮时间。 配料：鲜山楂 15g；鲜白萝卜 15g；鲜橘皮 3g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高脂血症食养指南（2023年版）》 · 痰浊内阻型食谱中的茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/cms-search/downFiles/252e7bd69d064fc5a00f02fbc64b5e23.pdf",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "痰浊内阻型食谱中的茶饮",
+    "categories": [
+      "血脂管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "鲜山楂",
+        "amount": "15g"
+      },
+      {
+        "name": "鲜白萝卜",
+        "amount": "15g"
+      },
+      {
+        "name": "鲜橘皮",
+        "amount": "3g"
+      }
+    ]
+  },
+  {
+    "id": "lipid_qiju_drink",
+    "name": "杞菊饮",
+    "kind": "复方食养茶",
+    "category": "血脂管理",
+    "tags": [
+      "肝肾阴虚型高脂血症食谱中的茶饮",
+      "成人高脂血症食养指南（2023年版）"
+    ],
+    "benefit": "用于高脂血症人群的辨证食养参考；不应宣传为治疗高脂血症。",
+    "recipe": "按国家卫生健康委食养指南原方使用；本版保留原配料克数，但未在来源中核实到统一冲泡细节时，不自行编造煎煮时间。 配料：枸杞子 6g；菊花 6g；炒决明子 9g；绿茶 3g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高脂血症食养指南（2023年版）》 · 肝肾阴虚型高脂血症食谱中的茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/cms-search/downFiles/252e7bd69d064fc5a00f02fbc64b5e23.pdf",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "肝肾阴虚型高脂血症食谱中的茶饮",
+    "categories": [
+      "血脂管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "枸杞子",
+        "amount": "6g"
+      },
+      {
+        "name": "菊花",
+        "amount": "6g"
+      },
+      {
+        "name": "炒决明子",
+        "amount": "9g"
+      },
+      {
+        "name": "绿茶",
+        "amount": "3g"
+      }
+    ]
+  },
+  {
+    "id": "lipid_shanzha_gancao",
+    "name": "山楂甘草茶",
+    "kind": "复方食养茶",
+    "category": "血脂管理",
+    "tags": [
+      "气虚血瘀型高脂血症食谱中的茶饮",
+      "成人高脂血症食养指南（2023年版）"
+    ],
+    "benefit": "用于高脂血症人群的辨证食养参考；甘草与部分疾病和药物存在相互作用风险，长期饮用前应咨询专业人员。",
+    "recipe": "按国家卫生健康委食养指南原方使用；本版保留原配料克数，但未在来源中核实到统一冲泡细节时，不自行编造煎煮时间。 配料：山楂 3g；甘草 6g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高脂血症食养指南（2023年版）》 · 气虚血瘀型高脂血症食谱中的茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/cms-search/downFiles/252e7bd69d064fc5a00f02fbc64b5e23.pdf",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "气虚血瘀型高脂血症食谱中的茶饮",
+    "categories": [
+      "血脂管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "山楂",
+        "amount": "3g"
+      },
+      {
+        "name": "甘草",
+        "amount": "6g"
+      }
+    ]
+  },
+  {
+    "id": "lipid_shanzha_gancao_yiyiren",
+    "name": "山楂甘草薏苡仁饮",
+    "kind": "复方食养茶",
+    "category": "血脂管理",
+    "tags": [
+      "气虚血瘀型高脂血症食谱中的茶饮",
+      "成人高脂血症食养指南（2023年版）"
+    ],
+    "benefit": "用于高脂血症人群的辨证食养参考；不作为降脂药替代。",
+    "recipe": "按国家卫生健康委食养指南原方使用；本版保留原配料克数，但未在来源中核实到统一冲泡细节时，不自行编造煎煮时间。 配料：甘草 9g；山楂 9g；薏苡仁 9g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高脂血症食养指南（2023年版）》 · 气虚血瘀型高脂血症食谱中的茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/cms-search/downFiles/252e7bd69d064fc5a00f02fbc64b5e23.pdf",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "气虚血瘀型高脂血症食谱中的茶饮",
+    "categories": [
+      "血脂管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "甘草",
+        "amount": "9g"
+      },
+      {
+        "name": "山楂",
+        "amount": "9g"
+      },
+      {
+        "name": "薏苡仁",
+        "amount": "9g"
+      }
+    ]
+  },
+  {
+    "id": "lipid_jianpi",
+    "name": "健脾饮",
+    "kind": "复方食养茶",
+    "category": "血脂管理",
+    "tags": [
+      "脾虚湿盛型高脂血症食谱中的茶饮",
+      "成人高脂血症食养指南（2023年版）"
+    ],
+    "benefit": "用于高脂血症人群的辨证食养参考；官方收录不等于精确复方的临床疗效已被独立验证。",
+    "recipe": "按国家卫生健康委食养指南原方使用；本版保留原配料克数，但未在来源中核实到统一冲泡细节时，不自行编造煎煮时间。 配料：橘皮 6g；荷叶 6g；山楂 3g；麦芽 10g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高脂血症食养指南（2023年版）》 · 脾虚湿盛型高脂血症食谱中的茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/cms-search/downFiles/252e7bd69d064fc5a00f02fbc64b5e23.pdf",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "脾虚湿盛型高脂血症食谱中的茶饮",
+    "categories": [
+      "血脂管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "橘皮",
+        "amount": "6g"
+      },
+      {
+        "name": "荷叶",
+        "amount": "6g"
+      },
+      {
+        "name": "山楂",
+        "amount": "3g"
+      },
+      {
+        "name": "麦芽",
+        "amount": "10g"
+      }
+    ]
+  },
+  {
+    "id": "lipid_sanhua_jupi",
+    "name": "三花橘皮茶",
+    "kind": "复方食养茶",
+    "category": "血脂管理",
+    "tags": [
+      "脾虚湿盛型高脂血症食谱中的茶饮",
+      "成人高脂血症食养指南（2023年版）"
+    ],
+    "benefit": "用于高脂血症人群的辨证食养参考；不宣传确定性降脂功效。",
+    "recipe": "按国家卫生健康委食养指南原方使用；本版保留原配料克数，但未在来源中核实到统一冲泡细节时，不自行编造煎煮时间。 配料：重瓣玫瑰 10g；茉莉花 10g；代代花 10g；荷叶 10g；橘皮 3g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高脂血症食养指南（2023年版）》 · 脾虚湿盛型高脂血症食谱中的茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/cms-search/downFiles/252e7bd69d064fc5a00f02fbc64b5e23.pdf",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "脾虚湿盛型高脂血症食谱中的茶饮",
+    "categories": [
+      "血脂管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "重瓣玫瑰",
+        "amount": "10g"
+      },
+      {
+        "name": "茉莉花",
+        "amount": "10g"
+      },
+      {
+        "name": "代代花",
+        "amount": "10g"
+      },
+      {
+        "name": "荷叶",
+        "amount": "10g"
+      },
+      {
+        "name": "橘皮",
+        "amount": "3g"
+      }
+    ]
+  },
+  {
+    "id": "lipid_shanzha_yiyiren",
+    "name": "山楂薏苡仁饮",
+    "kind": "复方食养茶",
+    "category": "血脂管理",
+    "tags": [
+      "痰瘀互结型高脂血症食谱中的茶饮",
+      "成人高脂血症食养指南（2023年版）"
+    ],
+    "benefit": "用于高脂血症人群的辨证食养参考；不作为药物治疗替代。",
+    "recipe": "按国家卫生健康委食养指南原方使用；本版保留原配料克数，但未在来源中核实到统一冲泡细节时，不自行编造煎煮时间。 配料：山楂 3g；薏苡仁 15g；炒莱菔子 3g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高脂血症食养指南（2023年版）》 · 痰瘀互结型高脂血症食谱中的茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/cms-search/downFiles/252e7bd69d064fc5a00f02fbc64b5e23.pdf",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "痰瘀互结型高脂血症食谱中的茶饮",
+    "categories": [
+      "血脂管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "山楂",
+        "amount": "3g"
+      },
+      {
+        "name": "薏苡仁",
+        "amount": "15g"
+      },
+      {
+        "name": "炒莱菔子",
+        "amount": "3g"
+      }
+    ]
+  },
+  {
+    "id": "lipid_shanzha_jupi",
+    "name": "山楂橘皮饮",
+    "kind": "复方食养茶",
+    "category": "血脂管理",
+    "tags": [
+      "气滞血瘀型高脂血症食谱中的茶饮",
+      "成人高脂血症食养指南（2023年版）"
+    ],
+    "benefit": "用于高脂血症人群的辨证食养参考；不宣传为确定性降脂治疗。",
+    "recipe": "按国家卫生健康委食养指南原方使用；本版保留原配料克数，但未在来源中核实到统一冲泡细节时，不自行编造煎煮时间。 配料：山楂 6g；生姜 3g；橘皮 3g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高脂血症食养指南（2023年版）》 · 气滞血瘀型高脂血症食谱中的茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/cms-search/downFiles/252e7bd69d064fc5a00f02fbc64b5e23.pdf",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "气滞血瘀型高脂血症食谱中的茶饮",
+    "categories": [
+      "血脂管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "山楂",
+        "amount": "6g"
+      },
+      {
+        "name": "生姜",
+        "amount": "3g"
+      },
+      {
+        "name": "橘皮",
+        "amount": "3g"
+      }
+    ]
+  },
+  {
+    "id": "bp_shanzha_erhua",
+    "name": "山楂二花茶",
+    "kind": "复方食养茶",
+    "category": "血压管理",
+    "tags": [
+      "高血压食谱示例中的茶饮",
+      "成人高血压食养指南（2023年版）"
+    ],
+    "benefit": "作为高血压人群食养参考；不能替代降压药，也不能写成“喝后即可降压”。",
+    "recipe": "按国家卫生健康委食养指南原方使用；本版保留原配料克数，但未在来源中核实到统一冲泡细节时，不自行编造煎煮时间。 配料：山楂 10g；金银花 10g；菊花 10g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高血压食养指南（2023年版）》 · 高血压食谱示例中的茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/cms-search/downFiles/63f752a17cfd4b4781f744477561866f.pdf",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "高血压食谱示例中的茶饮",
+    "categories": [
+      "血压管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "山楂",
+        "amount": "10g"
+      },
+      {
+        "name": "金银花",
+        "amount": "10g"
+      },
+      {
+        "name": "菊花",
+        "amount": "10g"
+      }
+    ]
+  },
+  {
+    "id": "bp_gouqi_juhua_jueming",
+    "name": "枸杞菊花决明饮",
+    "kind": "复方食养茶",
+    "category": "血压管理",
+    "tags": [
+      "高血压辨证食养中的茶饮",
+      "成人高血压食养指南（2023年版）"
+    ],
+    "benefit": "作为高血压人群辨证食养参考；不替代规范降压治疗。",
+    "recipe": "同煮后去渣取汁，代茶饮。是否加糖应结合血糖和总能量情况，App 默认不建议额外加糖。 配料：枸杞子 10g；菊花 10g；炒决明子 15g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高血压食养指南（2023年版）》 · 高血压辨证食养中的茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/cms-search/downFiles/63f752a17cfd4b4781f744477561866f.pdf",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "高血压辨证食养中的茶饮",
+    "categories": [
+      "血压管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "枸杞子",
+        "amount": "10g"
+      },
+      {
+        "name": "菊花",
+        "amount": "10g"
+      },
+      {
+        "name": "炒决明子",
+        "amount": "15g"
+      }
+    ]
+  },
+  {
+    "id": "bp_kuding_juhua",
+    "name": "苦丁菊花茶",
+    "kind": "复方食养茶",
+    "category": "血压管理",
+    "tags": [
+      "高血压食谱示例中的茶饮",
+      "成人高血压食养指南（2023年版）"
+    ],
+    "benefit": "作为高血压人群食养参考；不能把指南收录等同于独立临床疗效证明。",
+    "recipe": "按国家卫生健康委食养指南原方使用；本版保留原配料克数，但未在来源中核实到统一冲泡细节时，不自行编造煎煮时间。 配料：苦丁茶 15g；菊花 10g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高血压食养指南（2023年版）》 · 高血压食谱示例中的茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/cms-search/downFiles/63f752a17cfd4b4781f744477561866f.pdf",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "高血压食谱示例中的茶饮",
+    "categories": [
+      "血压管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "苦丁茶",
+        "amount": "15g"
+      },
+      {
+        "name": "菊花",
+        "amount": "10g"
+      }
+    ]
+  },
+  {
+    "id": "obesity_sandou",
+    "name": "三豆饮",
+    "kind": "复方食养茶",
+    "category": "体重管理",
+    "tags": [
+      "胃热火郁证食养方",
+      "成人肥胖食养指南（2024年版）"
+    ],
+    "benefit": "用于成人肥胖的辨证食养；核心减重仍是能量管理和生活方式，不应宣传为“减肥药茶”。",
+    "recipe": "洗净，加水适量煮至豆熟烂；温服，吃豆喝汤。 配料：赤小豆 15g；黑豆 15g；绿豆 15g；生甘草 5g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人肥胖食养指南（2024年版）》 · 胃热火郁证食养方",
+    "sourceUrl": "https://www.nhc.gov.cn/",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "胃热火郁证食养方",
+    "categories": [
+      "体重管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "赤小豆",
+        "amount": "15g"
+      },
+      {
+        "name": "黑豆",
+        "amount": "15g"
+      },
+      {
+        "name": "绿豆",
+        "amount": "15g"
+      },
+      {
+        "name": "生甘草",
+        "amount": "5g"
+      }
+    ]
+  },
+  {
+    "id": "obesity_juzhao",
+    "name": "橘枣茶",
+    "kind": "复方食养茶",
+    "category": "体重管理",
+    "tags": [
+      "痰湿内盛证食养茶饮",
+      "成人肥胖食养指南（2024年版）"
+    ],
+    "benefit": "用于成人肥胖的辨证食养参考，不把它描述为可独立减重。",
+    "recipe": "大枣去核并炒焦，橘皮洗净，一起用沸水冲泡约10分钟，代茶饮。 配料：大枣 3枚；橘皮 3g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人肥胖食养指南（2024年版）》 · 痰湿内盛证食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "痰湿内盛证食养茶饮",
+    "categories": [
+      "体重管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "大枣",
+        "amount": "3枚"
+      },
+      {
+        "name": "橘皮",
+        "amount": "3g"
+      }
+    ]
+  },
+  {
+    "id": "obesity_shanzha_jupi",
+    "name": "山楂橘皮茶",
+    "kind": "复方食养茶",
+    "category": "体重管理",
+    "tags": [
+      "气郁血瘀证食养茶饮",
+      "成人肥胖食养指南（2024年版）"
+    ],
+    "benefit": "用于成人肥胖的辨证食养参考，不写成“燃脂”或“直接减肥”。",
+    "recipe": "洗净，置杯中，用沸水冲泡约10分钟，代茶饮。 配料：山楂 10g；橘皮 3g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人肥胖食养指南（2024年版）》 · 气郁血瘀证食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "气郁血瘀证食养茶饮",
+    "categories": [
+      "体重管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "山楂",
+        "amount": "10g"
+      },
+      {
+        "name": "橘皮",
+        "amount": "3g"
+      }
+    ]
+  },
+  {
+    "id": "obesity_huangqi_jupi",
+    "name": "黄芪橘皮饮",
+    "kind": "复方食养茶",
+    "category": "体重管理",
+    "tags": [
+      "脾虚不运证食养茶饮",
+      "成人肥胖食养指南（2024年版）"
+    ],
+    "benefit": "用于成人肥胖的辨证食养参考；不作为减重药物或替代治疗。",
+    "recipe": "洗净后加水，大火烧开转小火约30分钟，代茶饮。 配料：黄芪 10g；橘皮 5g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人肥胖食养指南（2024年版）》 · 脾虚不运证食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "脾虚不运证食养茶饮",
+    "categories": [
+      "体重管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "黄芪",
+        "amount": "10g"
+      },
+      {
+        "name": "橘皮",
+        "amount": "5g"
+      }
+    ]
+  },
+  {
+    "id": "obesity_heye",
+    "name": "荷叶减肥茶",
+    "kind": "复方食养茶",
+    "category": "体重管理",
+    "tags": [
+      "脾虚不运证食养茶饮",
+      "成人肥胖食养指南（2024年版）"
+    ],
+    "benefit": "官方名称含“减肥茶”，但 App 文案必须说明它属于辨证食养，不能承诺减重效果；孕期女性应遵医嘱。",
+    "recipe": "材料装入纱布包或药袋，沸水冲泡约10分钟；指南注明煮开效果更佳，代茶饮。 配料：山楂 6g；薏苡仁 6g；橘皮 3g；荷叶 9g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人肥胖食养指南（2024年版）》 · 脾虚不运证食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "脾虚不运证食养茶饮",
+    "categories": [
+      "体重管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "山楂",
+        "amount": "6g"
+      },
+      {
+        "name": "薏苡仁",
+        "amount": "6g"
+      },
+      {
+        "name": "橘皮",
+        "amount": "3g"
+      },
+      {
+        "name": "荷叶",
+        "amount": "9g"
+      }
+    ]
+  },
+  {
+    "id": "obesity_jianggui",
+    "name": "姜桂茶",
+    "kind": "复方食养茶",
+    "category": "体重管理",
+    "tags": [
+      "脾肾阳虚证食养茶饮",
+      "成人肥胖食养指南（2024年版）"
+    ],
+    "benefit": "用于成人肥胖的辨证食养参考，不宣传为直接减脂。",
+    "recipe": "干姜、肉桂用沸水冲泡约10分钟，代茶饮。 配料：干姜 3g；肉桂 3g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人肥胖食养指南（2024年版）》 · 脾肾阳虚证食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "脾肾阳虚证食养茶饮",
+    "categories": [
+      "体重管理"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "干姜",
+        "amount": "3g"
+      },
+      {
+        "name": "肉桂",
+        "amount": "3g"
+      }
+    ]
+  },
+  {
+    "id": "gout_jupi",
+    "name": "橘皮茶",
+    "kind": "复方食养茶",
+    "category": "高尿酸/痛风",
+    "tags": [
+      "湿浊证经验食养茶饮",
+      "成人高尿酸血症与痛风食养指南（2024年版）"
+    ],
+    "benefit": "用于高尿酸血症/痛风人群的辨证食养；不可替代降尿酸或痛风治疗。",
+    "recipe": "加适量水，先浸泡约30分钟，再煎煮，分多次代茶饮。 配料：橘皮 3g；茯苓 9g；菊苣 6g；葛根 6g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高尿酸血症与痛风食养指南（2024年版）》 · 湿浊证经验食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "湿浊证经验食养茶饮",
+    "categories": [
+      "高尿酸 / 痛风食养"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "橘皮",
+        "amount": "3g"
+      },
+      {
+        "name": "茯苓",
+        "amount": "9g"
+      },
+      {
+        "name": "菊苣",
+        "amount": "6g"
+      },
+      {
+        "name": "葛根",
+        "amount": "6g"
+      }
+    ]
+  },
+  {
+    "id": "gout_sharen_jupi",
+    "name": "砂仁橘皮茶",
+    "kind": "复方食养茶",
+    "category": "高尿酸/痛风",
+    "tags": [
+      "湿浊证经验食养茶饮",
+      "成人高尿酸血症与痛风食养指南（2024年版）"
+    ],
+    "benefit": "用于高尿酸血症/痛风人群的辨证食养，不作为降尿酸药替代。",
+    "recipe": "加适量水，先浸泡约30分钟，再煎煮，分多次代茶饮。 配料：砂仁 6g；橘皮 3g；生姜 6g；菊苣 6g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高尿酸血症与痛风食养指南（2024年版）》 · 湿浊证经验食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "湿浊证经验食养茶饮",
+    "categories": [
+      "高尿酸 / 痛风食养"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "砂仁",
+        "amount": "6g"
+      },
+      {
+        "name": "橘皮",
+        "amount": "3g"
+      },
+      {
+        "name": "生姜",
+        "amount": "6g"
+      },
+      {
+        "name": "菊苣",
+        "amount": "6g"
+      }
+    ]
+  },
+  {
+    "id": "gout_juji_yiyiren",
+    "name": "菊苣薏苡仁茶",
+    "kind": "复方食养茶",
+    "category": "高尿酸/痛风",
+    "tags": [
+      "湿浊证经验食养茶饮",
+      "成人高尿酸血症与痛风食养指南（2024年版）"
+    ],
+    "benefit": "用于高尿酸血症/痛风人群的辨证食养；孕妇慎用。",
+    "recipe": "加适量水，先浸泡约30分钟，再煎煮，分多次代茶饮。 配料：菊苣 6g；薏苡仁 9g；菊花 3g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高尿酸血症与痛风食养指南（2024年版）》 · 湿浊证经验食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "湿浊证经验食养茶饮",
+    "categories": [
+      "高尿酸 / 痛风食养"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "菊苣",
+        "amount": "6g"
+      },
+      {
+        "name": "薏苡仁",
+        "amount": "9g"
+      },
+      {
+        "name": "菊花",
+        "amount": "3g"
+      }
+    ]
+  },
+  {
+    "id": "gout_jinyinhua_heye",
+    "name": "金银花荷叶茶",
+    "kind": "复方食养茶",
+    "category": "高尿酸/痛风",
+    "tags": [
+      "湿热证经验食养茶饮",
+      "成人高尿酸血症与痛风食养指南（2024年版）"
+    ],
+    "benefit": "用于高尿酸血症/痛风人群的辨证食养；孕妇慎用，且不可替代药物治疗。",
+    "recipe": "加适量水，先浸泡约30分钟，再煎煮，分多次代茶饮。 配料：金银花 6g；荷叶 6g；菊苣 6g；薏苡仁 9g；甘草 3g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高尿酸血症与痛风食养指南（2024年版）》 · 湿热证经验食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "湿热证经验食养茶饮",
+    "categories": [
+      "高尿酸 / 痛风食养"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "金银花",
+        "amount": "6g"
+      },
+      {
+        "name": "荷叶",
+        "amount": "6g"
+      },
+      {
+        "name": "菊苣",
+        "amount": "6g"
+      },
+      {
+        "name": "薏苡仁",
+        "amount": "9g"
+      },
+      {
+        "name": "甘草",
+        "amount": "3g"
+      }
+    ]
+  },
+  {
+    "id": "gout_yumixu_baimaogen",
+    "name": "玉米须白茅根茶",
+    "kind": "复方食养茶",
+    "category": "高尿酸/痛风",
+    "tags": [
+      "湿热证经验食养茶饮",
+      "成人高尿酸血症与痛风食养指南（2024年版）"
+    ],
+    "benefit": "用于高尿酸血症/痛风人群的辨证食养，不宣传为直接降低尿酸。",
+    "recipe": "加适量水，先浸泡约30分钟，再煎煮，分多次代茶饮。 配料：玉米须 30g；鲜白茅根 30g；金银花 9g；栀子 3g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高尿酸血症与痛风食养指南（2024年版）》 · 湿热证经验食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "湿热证经验食养茶饮",
+    "categories": [
+      "高尿酸 / 痛风食养"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "玉米须",
+        "amount": "30g"
+      },
+      {
+        "name": "鲜白茅根",
+        "amount": "30g"
+      },
+      {
+        "name": "金银花",
+        "amount": "9g"
+      },
+      {
+        "name": "栀子",
+        "amount": "3g"
+      }
+    ]
+  },
+  {
+    "id": "gout_jupi_laifuzi",
+    "name": "橘皮莱菔子茶",
+    "kind": "复方食养茶",
+    "category": "高尿酸/痛风",
+    "tags": [
+      "痰瘀证经验食养茶饮",
+      "成人高尿酸血症与痛风食养指南（2024年版）"
+    ],
+    "benefit": "用于高尿酸血症/痛风人群的辨证食养；孕妇慎用。",
+    "recipe": "加适量水，先浸泡约30分钟，再煎煮，分多次代茶饮。 配料：橘皮 6g；莱菔子 6g；山楂 12g；菊苣 10g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高尿酸血症与痛风食养指南（2024年版）》 · 痰瘀证经验食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "痰瘀证经验食养茶饮",
+    "categories": [
+      "高尿酸 / 痛风食养"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "橘皮",
+        "amount": "6g"
+      },
+      {
+        "name": "莱菔子",
+        "amount": "6g"
+      },
+      {
+        "name": "山楂",
+        "amount": "12g"
+      },
+      {
+        "name": "菊苣",
+        "amount": "10g"
+      }
+    ]
+  },
+  {
+    "id": "gout_jiegeng_jupi",
+    "name": "桔梗橘皮茶",
+    "kind": "复方食养茶",
+    "category": "高尿酸/痛风",
+    "tags": [
+      "痰瘀证经验食养茶饮",
+      "成人高尿酸血症与痛风食养指南（2024年版）"
+    ],
+    "benefit": "用于高尿酸血症/痛风人群的辨证食养；孕妇慎用。",
+    "recipe": "加适量水，先浸泡约30分钟，再煎煮，分多次代茶饮。 配料：桔梗 6g；橘皮 6g；桃仁 6g；薏苡仁 9g；菊苣 10g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高尿酸血症与痛风食养指南（2024年版）》 · 痰瘀证经验食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "痰瘀证经验食养茶饮",
+    "categories": [
+      "高尿酸 / 痛风食养"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "桔梗",
+        "amount": "6g"
+      },
+      {
+        "name": "橘皮",
+        "amount": "6g"
+      },
+      {
+        "name": "桃仁",
+        "amount": "6g"
+      },
+      {
+        "name": "薏苡仁",
+        "amount": "9g"
+      },
+      {
+        "name": "菊苣",
+        "amount": "10g"
+      }
+    ]
+  },
+  {
+    "id": "gout_shanyao_fuling",
+    "name": "山药茯苓茶",
+    "kind": "复方食养茶",
+    "category": "高尿酸/痛风",
+    "tags": [
+      "脾肾亏虚证经验食养茶饮",
+      "成人高尿酸血症与痛风食养指南（2024年版）"
+    ],
+    "benefit": "用于高尿酸血症/痛风人群的辨证食养；孕妇慎用。",
+    "recipe": "加适量水，先浸泡约30分钟，再煎煮，分多次代茶饮。 配料：山药 9g；茯苓 9g；薏苡仁 9g；百合 6g；大枣 3g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高尿酸血症与痛风食养指南（2024年版）》 · 脾肾亏虚证经验食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "脾肾亏虚证经验食养茶饮",
+    "categories": [
+      "高尿酸 / 痛风食养"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "山药",
+        "amount": "9g"
+      },
+      {
+        "name": "茯苓",
+        "amount": "9g"
+      },
+      {
+        "name": "薏苡仁",
+        "amount": "9g"
+      },
+      {
+        "name": "百合",
+        "amount": "6g"
+      },
+      {
+        "name": "大枣",
+        "amount": "3g"
+      }
+    ]
+  },
+  {
+    "id": "gout_renshen_huangqi",
+    "name": "人参黄芪茶",
+    "kind": "复方食养茶",
+    "category": "高尿酸/痛风",
+    "tags": [
+      "脾肾亏虚证经验食养茶饮",
+      "成人高尿酸血症与痛风食养指南（2024年版）"
+    ],
+    "benefit": "用于高尿酸血症/痛风人群的辨证食养；孕妇、哺乳期妇女不宜食用。",
+    "recipe": "加适量水，先浸泡约30分钟，再煎煮，分多次代茶饮。 配料：人参（人工种植≤5年）3g；黄芪 9g；百合 6g；菊苣 6g；葛根 6g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人高尿酸血症与痛风食养指南（2024年版）》 · 脾肾亏虚证经验食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "脾肾亏虚证经验食养茶饮",
+    "categories": [
+      "高尿酸 / 痛风食养"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "人参（人工种植≤5年）",
+        "amount": "3g"
+      },
+      {
+        "name": "黄芪",
+        "amount": "9g"
+      },
+      {
+        "name": "百合",
+        "amount": "6g"
+      },
+      {
+        "name": "菊苣",
+        "amount": "6g"
+      },
+      {
+        "name": "葛根",
+        "amount": "6g"
+      }
+    ]
+  },
+  {
+    "id": "stroke_huangjing_shihu",
+    "name": "黄精石斛饮",
+    "kind": "复方食养茶",
+    "category": "脑卒中恢复",
+    "tags": [
+      "脑卒中恢复期/后遗症期食谱与辨证食养茶饮",
+      "成人脑卒中食养指南（2026年版）"
+    ],
+    "benefit": "仅用于指南适用人群的食养参考：恢复期或后遗症期、生命体征稳定且可经口进食者；不适用于急性期或重症患者自行使用。",
+    "recipe": "加适量水煎煮，分多次代茶饮用。 配料：黄精 3g；铁皮石斛 3g；枸杞子 3g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人脑卒中食养指南（2026年版）》 · 脑卒中恢复期/后遗症期食谱与辨证食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/sps/c100087/202604/a69d2fce21e040dc96cbc40b923a06d3.shtml",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "脑卒中恢复期/后遗症期食谱与辨证食养茶饮",
+    "categories": [
+      "脑卒中恢复期食养"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "黄精",
+        "amount": "3g"
+      },
+      {
+        "name": "铁皮石斛",
+        "amount": "3g"
+      },
+      {
+        "name": "枸杞子",
+        "amount": "3g"
+      }
+    ]
+  },
+  {
+    "id": "stroke_lingzhi_huangqi_taoren",
+    "name": "灵芝黄芪桃仁茶",
+    "kind": "复方食养茶",
+    "category": "脑卒中恢复",
+    "tags": [
+      "气虚血瘀型经验食养茶饮",
+      "成人脑卒中食养指南（2026年版）"
+    ],
+    "benefit": "用于脑卒中恢复期/后遗症期的辨证食养参考；孕妇慎用，不能替代二级预防药物和康复治疗。",
+    "recipe": "加适量水煎煮，分多次代茶饮用。 配料：灵芝 3g；黄芪 6g；桃仁 3g；大枣 3g",
+    "evidenceLabel": "国家卫健委官方食养方",
+    "evidenceSummary": "该配方被国家卫生健康委食养指南收录，属于经验食养/辨证食养参考；“指南收录”不等于该精确复方已被大型随机对照试验证实具有治疗效果。",
+    "sourceTitle": "《成人脑卒中食养指南（2026年版）》 · 气虚血瘀型经验食养茶饮",
+    "sourceUrl": "https://www.nhc.gov.cn/sps/c100087/202604/a69d2fce21e040dc96cbc40b923a06d3.shtml",
+    "cautions": [
+      "疾病相关食养不能替代药物、就医、营养治疗或康复。",
+      "存在慢性病、妊娠/哺乳、同时服药或准备长期饮用者，应先咨询医生、药师或注册营养师。"
+    ],
+    "seasonRecommendable": false,
+    "officialContext": "气虚血瘀型经验食养茶饮",
+    "categories": [
+      "脑卒中恢复期食养"
+    ],
+    "type": "复方食养茶",
+    "ingredients": [
+      {
+        "name": "灵芝",
+        "amount": "3g"
+      },
+      {
+        "name": "黄芪",
+        "amount": "6g"
+      },
+      {
+        "name": "桃仁",
+        "amount": "3g"
+      },
+      {
+        "name": "大枣",
+        "amount": "3g"
+      }
+    ]
+  }
+]

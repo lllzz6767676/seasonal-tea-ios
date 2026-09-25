@@ -1,0 +1,159 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+/* Begin PBXBuildFile section */
+		FCD694289AACA357C69D723E /* EvidenceBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50595E1D717D83436AA59E86 /* EvidenceBadge.swift */; };
+		1456DB69C8F5A781E1407515 /* SectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DA34C8DE90DBA0D78BBCE1 /* SectionCard.swift */; };
+		024C76B933CF5201D544CA86 /* TeaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A00CFA04FC07E6322ABF1 /* TeaCard.swift */; };
+		00E5ADEA20461D744323BF7F /* TeaPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031FD38726A8F2392AFC442 /* TeaPalette.swift */; };
+		0B4FEC506A42159BF71D3893 /* SolarTerm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B697EFB212F6C3EC9C148A /* SolarTerm.swift */; };
+		B5727F39CB2CD6C1EE436030 /* Tea.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C900A7944640E1BA0C69B /* Tea.swift */; };
+		947BD47780B0FD61CD86EDD8 /* TeaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E80D2CDF5D1F35B82858DF /* TeaRepository.swift */; };
+		EF5222D712CB726EA0E1FB1C /* RecommendationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5922B2FBBF526AEDEA15946F /* RecommendationService.swift */; };
+		094BA6358D1C571660E6949A /* SolarTermService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2B499B39637E0DA43F2AB /* SolarTermService.swift */; };
+		E2E82630C37F2B4438AAD603 /* TeaSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80DE3AFC4EE773172DF7531 /* TeaSearchService.swift */; };
+		CADE586A4BEE2C06DB878280 /* TeaHealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E4E7D44927CBB09D6B8703 /* TeaHealthApp.swift */; };
+		4064EC0764CA8738A54B2218 /* TeaCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D807B3C4147DDD6E16545A /* TeaCategoryView.swift */; };
+		E638E9DC4AA040316A7D8383 /* TeaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458CEAB5AAC45CF980A407D7 /* TeaDetailView.swift */; };
+		80F3D1D46FDD79F32887238A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9792470011737E186266A47F /* HomeView.swift */; };
+		4E28BDC38D2FCAF682B8B8FA /* TeaLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABC0C0E18D4E54E47339A32 /* TeaLibraryView.swift */; };
+		021D1B4AB02EDCDAD64B8861 /* tea_data.json in Resources */ = {isa = PBXBuildFile; fileRef = BE47C27DCEF76E77A0AF388E /* tea_data.json */; };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+		50595E1D717D83436AA59E86 /* EvidenceBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EvidenceBadge.swift"; sourceTree = "<group>"; };
+		F4DA34C8DE90DBA0D78BBCE1 /* SectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SectionCard.swift"; sourceTree = "<group>"; };
+		717A00CFA04FC07E6322ABF1 /* TeaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeaCard.swift"; sourceTree = "<group>"; };
+		6031FD38726A8F2392AFC442 /* TeaPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeaPalette.swift"; sourceTree = "<group>"; };
+		D5B697EFB212F6C3EC9C148A /* SolarTerm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SolarTerm.swift"; sourceTree = "<group>"; };
+		CC7C900A7944640E1BA0C69B /* Tea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tea.swift"; sourceTree = "<group>"; };
+		68E80D2CDF5D1F35B82858DF /* TeaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeaRepository.swift"; sourceTree = "<group>"; };
+		5922B2FBBF526AEDEA15946F /* RecommendationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecommendationService.swift"; sourceTree = "<group>"; };
+		2EB2B499B39637E0DA43F2AB /* SolarTermService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SolarTermService.swift"; sourceTree = "<group>"; };
+		A80DE3AFC4EE773172DF7531 /* TeaSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeaSearchService.swift"; sourceTree = "<group>"; };
+		13E4E7D44927CBB09D6B8703 /* TeaHealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeaHealthApp.swift"; sourceTree = "<group>"; };
+		97D807B3C4147DDD6E16545A /* TeaCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeaCategoryView.swift"; sourceTree = "<group>"; };
+		458CEAB5AAC45CF980A407D7 /* TeaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeaDetailView.swift"; sourceTree = "<group>"; };
+		9792470011737E186266A47F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView.swift"; sourceTree = "<group>"; };
+		7ABC0C0E18D4E54E47339A32 /* TeaLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeaLibraryView.swift"; sourceTree = "<group>"; };
+		BE47C27DCEF76E77A0AF388E /* tea_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tea_data.json; sourceTree = "<group>"; };
+		A9170DB884ABEDC2195B41BC /* SeasonalTea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeasonalTea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+/* Begin PBXGroup section */
+		DB2BFDFA86CB2D21FDEFF426 /* . */ = {isa = PBXGroup; children = (
+			13E4E7D44927CBB09D6B8703 /* TeaHealthApp.swift */,
+		); path = "."; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXGroup section */
+		54FE5E34995DE10F87DF7B85 /* Components */ = {isa = PBXGroup; children = (
+			50595E1D717D83436AA59E86 /* EvidenceBadge.swift */,
+			F4DA34C8DE90DBA0D78BBCE1 /* SectionCard.swift */,
+			717A00CFA04FC07E6322ABF1 /* TeaCard.swift */,
+			6031FD38726A8F2392AFC442 /* TeaPalette.swift */,
+		); path = "Components"; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXGroup section */
+		BF657CFE8769AAE6C0570C29 /* Models */ = {isa = PBXGroup; children = (
+			D5B697EFB212F6C3EC9C148A /* SolarTerm.swift */,
+			CC7C900A7944640E1BA0C69B /* Tea.swift */,
+		); path = "Models"; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXGroup section */
+		D54C6BF628381B2928BD09E1 /* Repositories */ = {isa = PBXGroup; children = (
+			68E80D2CDF5D1F35B82858DF /* TeaRepository.swift */,
+		); path = "Repositories"; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXGroup section */
+		A024F06580C79B7582C3806A /* Resources */ = {isa = PBXGroup; children = (
+			BE47C27DCEF76E77A0AF388E /* tea_data.json */,
+		); path = "Resources"; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXGroup section */
+		6EE67047A4B2648DDBB08231 /* Services */ = {isa = PBXGroup; children = (
+			5922B2FBBF526AEDEA15946F /* RecommendationService.swift */,
+			2EB2B499B39637E0DA43F2AB /* SolarTermService.swift */,
+			A80DE3AFC4EE773172DF7531 /* TeaSearchService.swift */,
+		); path = "Services"; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXGroup section */
+		B44983EFC5D43C87E5BFA35A /* Views/Category */ = {isa = PBXGroup; children = (
+			97D807B3C4147DDD6E16545A /* TeaCategoryView.swift */,
+		); path = "Views/Category"; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXGroup section */
+		21E9750DA7E478E021AB6D11 /* Views/Detail */ = {isa = PBXGroup; children = (
+			458CEAB5AAC45CF980A407D7 /* TeaDetailView.swift */,
+		); path = "Views/Detail"; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXGroup section */
+		DAD986ED07EA12362D13D02C /* Views/Home */ = {isa = PBXGroup; children = (
+			9792470011737E186266A47F /* HomeView.swift */,
+		); path = "Views/Home"; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXGroup section */
+		F8DCF93C092E8D09DC3F42D6 /* Views/Library */ = {isa = PBXGroup; children = (
+			7ABC0C0E18D4E54E47339A32 /* TeaLibraryView.swift */,
+		); path = "Views/Library"; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXGroup section */
+		ADCF10F76EBF2A74473E9DC4 /* Main Group */ = {isa = PBXGroup; children = (
+			DB2BFDFA86CB2D21FDEFF426 /* . */,
+			54FE5E34995DE10F87DF7B85 /* Components */,
+			BF657CFE8769AAE6C0570C29 /* Models */,
+			D54C6BF628381B2928BD09E1 /* Repositories */,
+			A024F06580C79B7582C3806A /* Resources */,
+			6EE67047A4B2648DDBB08231 /* Services */,
+			B44983EFC5D43C87E5BFA35A /* Views/Category */,
+			21E9750DA7E478E021AB6D11 /* Views/Detail */,
+			DAD986ED07EA12362D13D02C /* Views/Home */,
+			F8DCF93C092E8D09DC3F42D6 /* Views/Library */,
+			00C45FD35CB0F9C5F764F070 /* Products */,
+		); path = SeasonalTea; sourceTree = "<group>"; };
+		00C45FD35CB0F9C5F764F070 /* Products */ = {isa = PBXGroup; children = (A9170DB884ABEDC2195B41BC /* SeasonalTea.app */,); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXSourcesBuildPhase section */
+		1CDF2F71A52B082132B04DFF /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+			FCD694289AACA357C69D723E /* EvidenceBadge.swift in Sources */,
+			1456DB69C8F5A781E1407515 /* SectionCard.swift in Sources */,
+			024C76B933CF5201D544CA86 /* TeaCard.swift in Sources */,
+			00E5ADEA20461D744323BF7F /* TeaPalette.swift in Sources */,
+			0B4FEC506A42159BF71D3893 /* SolarTerm.swift in Sources */,
+			B5727F39CB2CD6C1EE436030 /* Tea.swift in Sources */,
+			947BD47780B0FD61CD86EDD8 /* TeaRepository.swift in Sources */,
+			EF5222D712CB726EA0E1FB1C /* RecommendationService.swift in Sources */,
+			094BA6358D1C571660E6949A /* SolarTermService.swift in Sources */,
+			E2E82630C37F2B4438AAD603 /* TeaSearchService.swift in Sources */,
+			CADE586A4BEE2C06DB878280 /* TeaHealthApp.swift in Sources */,
+			4064EC0764CA8738A54B2218 /* TeaCategoryView.swift in Sources */,
+			E638E9DC4AA040316A7D8383 /* TeaDetailView.swift in Sources */,
+			80F3D1D46FDD79F32887238A /* HomeView.swift in Sources */,
+			4E28BDC38D2FCAF682B8B8FA /* TeaLibraryView.swift in Sources */,
+		); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+/* Begin PBXResourcesBuildPhase section */
+		C02F1309AF4906C92F1EAD44 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (021D1B4AB02EDCDAD64B8861 /* tea_data.json in Resources */,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXFrameworksBuildPhase section */
+		CF5BDB0BEAFE176F9629192A /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+/* Begin XCBuildConfiguration section */
+		73BFC4993D558C2844970A56 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; }; name = Debug; };
+		3C5BC6FE1E438E679FB7F74F /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_VERSION = 5.0; }; name = Release; };
+		A45358D7F57D12409C956205 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "节气茶饮"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.SeasonalTea; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		7A3CC3E65B4BE81911CE6871 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "节气茶饮"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.SeasonalTea; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; SWIFT_COMPILATION_MODE = wholemodule; }; name = Release; };
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+		12D04D787E90C9B967248BFD /* Build configuration list for PBXProject */ = {isa = XCConfigurationList; buildConfigurations = (73BFC4993D558C2844970A56 /* Debug */, 3C5BC6FE1E438E679FB7F74F /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		7ADE71700E9404B10E13B577 /* Build configuration list for PBXNativeTarget */ = {isa = XCConfigurationList; buildConfigurations = (A45358D7F57D12409C956205 /* Debug */, 7A3CC3E65B4BE81911CE6871 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+/* Begin PBXNativeTarget section */
+		444EBDC99E543FCFF5680C2D /* SeasonalTea */ = {isa = PBXNativeTarget; buildConfigurationList = 7ADE71700E9404B10E13B577 /* Build configuration list for PBXNativeTarget */; buildPhases = (1CDF2F71A52B082132B04DFF /* Sources */, CF5BDB0BEAFE176F9629192A /* Frameworks */, C02F1309AF4906C92F1EAD44 /* Resources */,); buildRules = (); dependencies = (); name = SeasonalTea; productName = SeasonalTea; productReference = A9170DB884ABEDC2195B41BC /* SeasonalTea.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+		845D0F7D97FA48E7E6C791B4 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsIn parallel = YES; LastUpgradeCheck = 1600; TargetAttributes = {444EBDC99E543FCFF5680C2D = {CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = 12D04D787E90C9B967248BFD /* Build configuration list for PBXProject */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,); mainGroup = ADCF10F76EBF2A74473E9DC4; productRefGroup = 00C45FD35CB0F9C5F764F070; projectDirPath = ""; projectRoot = ""; targets = (444EBDC99E543FCFF5680C2D /* SeasonalTea */,); };
+/* End PBXProject section */
+	};
+	rootObject = 845D0F7D97FA48E7E6C791B4 /* Project object */;
+}
